@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="14" time="720.395298">
+    <testcase classname="Validate application login Page" name="To validate application login page functionality" time="62.751331">
+        <system-out><![CDATA[Given Launch the url........................................................passed
+When Click on Chrome Extensions.............................................passed
+And Click on Pin From Chrome Extensions.....................................passed
+And Click on RevDriver by SalesIntel........................................passed
+And Switch To Frame.........................................................passed
+And Enter the UserName......................................................passed
+And Enter the Password......................................................passed
+And Click on Login CTA......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application 1st Contact's Name functionality" time="25.116346">
+        <system-out><![CDATA[When Click on Filter Button.................................................passed
+And Click on Contacts Email Button..........................................passed
+And Enter the Firstname.....................................................passed
+And Enter the Lastname......................................................passed
+And Click on Search Button..................................................passed
+And Click on Reveal Button..................................................passed
+And Click on Cancel Button..................................................passed
+And Wait Till Page Load To Display Select All Data..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application 2nd Contact's Name functionality" time="24.362311">
+        <system-out><![CDATA[When Click on Filter Button.................................................passed
+And Click on Contacts Email Button..........................................passed
+And Enter the 2nd Contacts Firstname........................................passed
+And Enter the 2nd Contacts Lastname.........................................passed
+And Click on Search Button..................................................passed
+And Click on Reveal Button..................................................passed
+And Click on Cancel Button..................................................passed
+And Wait Till Page Load To Display Select All Data..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application 1st Contact's Email functionality" time="24.416841">
+        <system-out><![CDATA[When Click on Filter Button.................................................passed
+And Click on Contacts Name Email Button.....................................passed
+And Enter the 1st Contacts Email Address....................................passed
+And Click on Search Button..................................................passed
+And Click on Reveal Button..................................................passed
+And Click on Cancel Button..................................................passed
+And Wait Till Page Load To Display Select All Data..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application 2nd Contact's Email functionality" time="23.492054">
+        <system-out><![CDATA[When Click on Filter Button.................................................passed
+And Click on Contacts Name Email Button.....................................passed
+And Enter the 2nd Contacts Email Address....................................passed
+And Click on Search Button..................................................passed
+And Click on Reveal Button..................................................passed
+And Click on Cancel Button..................................................passed
+And Wait Till Page Load To Display Select All Data..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application Job Level functionality" time="12.719068">
+        <system-out><![CDATA[When Click on Filter Button.................................................passed
+And Click on Job Level Button...............................................passed
+And Select All Checkbox Option in Job Level.................................passed
+And Click on Search Button..................................................passed
+And Click on Cancel Button..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application Job Department functionality" time="15.443366">
+        <system-out><![CDATA[Then I Wait for Page Load...................................................passed
+When Click on Filter Button.................................................passed
+And Click on Job Department Button..........................................passed
+And Select All Checkbox Option in Job Department............................passed
+And Click on Search Button..................................................passed
+And Click on Cancel Button..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application Job Title functionality" time="11.766716">
+        <system-out><![CDATA[Then I Wait for Page Load...................................................passed
+When Click on Filter Button.................................................passed
+And Click on Job Title Button...............................................passed
+And Click on Search Button..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application login Page" name="To validate application Job Location functionality" time="5.746405">
+        <system-out><![CDATA[When Click on Filter Button.................................................passed
+And Click on Job Location Button............................................passed
+And Click on Search Button..................................................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application contact's Name in LinkedIn website using US Region" time="143.379572">
+        <system-out><![CDATA[Given Launch the url with US Region For LinkedIn............................passed
+When Click on Chrome Extensions.............................................passed
+And Click on Pin From Chrome Extensions.....................................passed
+And Click on RevDriver by SalesIntel........................................passed
+And Switch To Frame with US Region For LinkedIn.............................passed
+And Enter the UserName with US Region For LinkedIn..........................passed
+And Enter the Password with US Region For LinkedIn..........................passed
+And Click on Login CTA with US Region For LinkedIn..........................passed
+And Click on Filter option with US Region For LinkedIn......................passed
+And Click on Contacts Name Button with US Region For LinkedIn...............passed
+And Enter the Firstname with US Region For LinkedIn.........................passed
+And Enter the Lastname with US Region For LinkedIn..........................passed
+And Click on Search Button with US Region For LinkedIn......................passed
+And Click On LinkedIn Link Contact with US Region...........................passed
+And Switch To LinkedIn Website..............................................passed
+And Click On Sign In Link In LinkedIn Website...............................passed
+And Enter the Email Address In LinkedIn Website.............................passed
+And Enter the Password In LinkedIn Website..................................passed
+And Click on Agree&Join Button..............................................passed
+Then I Close the current window.............................................passed
+And Switch To LinkedIn Website To SalesIntel Website........................passed
+Then I Wait short period for Page Load......................................passed
+And Switch To Frame with US Region For LinkedIn.............................passed
+And Click On LinkedIn Link Contact with US Region In SalesIntel Website.....passed
+And Switch To LinkedIn Website To Specific Contact Details..................passed
+Then I Wait Till My Network text to be displayed............................passed
+When Click on Chrome Extensions.............................................passed
+And Click on Updated RevDriver by SalesIntel................................passed
+Then I Wait Till Specific Contact Details to be displayed...................passed
+Then I Validated Contact Details from Sales Intel Site and LinkedIn Site....passed
+Then I Close the current window.............................................passed
+And Switch To LinkedIn Website To SalesIntel Website........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Company Details as Adobe in LinkedIn website using US Region" time="51.420438">
+        <system-out><![CDATA[Then I Wait short period for Page Load......................................passed
+And Switch To Frame with US Region For LinkedIn.............................passed
+When Click on Filter option with US Region For LinkedIn.....................passed
+And Click On Clear Button with US Region For LinkedIn.......................passed
+And Enter the Firstname with US Region For LinkedIn.........................passed
+And Enter the Lastname with US Region For LinkedIn..........................passed
+And Click on Search Button with US Region For LinkedIn......................passed
+And Click On LinkedIn Link Contact with US Region...........................passed
+And Switch To LinkedIn Website..............................................passed
+And Enter the Company name as Adobe in Search Field.........................passed
+And Click On View Page with US Region In SalesIntel Website.................passed
+When Click on Chrome Extensions.............................................passed
+And Click on Adobe Updated RevDriver by SalesIntel..........................passed
+And Switch To Frame with US Region For LinkedIn.............................passed
+Then Validate Adobe Text For US Region In SalesIntel Website................passed
+And Get the name From SalesIntel Website In US Region.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce login with US Region" time="47.615798">
+        <system-out><![CDATA[Given Open the New Tap and Launch the Salesforce Website Using US Region....passed
+When Enter the Username in Salesforce Website Using US Region...............passed
+And Enter the Password in Salesforce Website Using US Region................passed
+And Click on Remember me checkbox in Salesforce Website Using US Region.....passed
+And Click on login button after entering the credentials in Salesforce Website Using US Region.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Export the contact using Salesforce website with US Region" time="113.344297">
+        <failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Cancel')]' (tried for 60 second(s) with 500 milliseconds interval)&#13;&#10;&#9;at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)&#13;&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)&#13;&#10;&#9;at org.stepdefinition.Steps.click_on_Cancel_in_Salesforce_Website_Using_US_Region(Steps.java:1688)&#13;&#10;&#9;at ✽.Click on Cancel in Salesforce Website Using US Region(file:src/test/resources/Features/TC03_Validate_Contact_With_LinkedIn_Site.feature:81)&#13;&#10;Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),'Cancel')]&quot;}&#10;  (Session info: chrome=107.0.5304.88)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'YOGESH', ip: '172.16.17.120', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Astegic\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 504a5196ab2dda266bace0273c7422c0&#10;*** Element info: {Using=xpath, value=//button[contains(text(),'Cancel')]}&#13;&#10;&#9;at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at jdk.proxy2/jdk.proxy2.$Proxy23.isDisplayed(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)&#13;&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)&#13;&#10;&#9;at org.stepdefinition.Steps.click_on_Cancel_in_Salesforce_Website_Using_US_Region(Steps.java:1688)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)&#13;&#10;&#9;at java.base/java.lang.reflect.Method.invoke(Method.java:577)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)&#13;&#10;&#9;at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:50)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:46)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:50)&#13;&#10;&#9;at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:79)&#13;&#10;&#9;at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:24)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)&#13;&#10;&#9;at java.base/java.lang.reflect.Method.invoke(Method.java:577)&#13;&#10;&#9;at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)&#13;&#10;&#9;at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)&#13;&#10;&#9;at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)&#13;&#10;&#9;at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)&#13;&#10;&#9;at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)&#13;&#10;&#9;at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)&#13;&#10;&#9;at org.testng.TestRunner.privateRun(TestRunner.java:648)&#13;&#10;&#9;at org.testng.TestRunner.run(TestRunner.java:505)&#13;&#10;&#9;at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)&#13;&#10;&#9;at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)&#13;&#10;&#9;at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)&#13;&#10;&#9;at org.testng.SuiteRunner.run(SuiteRunner.java:364)&#13;&#10;&#9;at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#13;&#10;&#9;at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)&#13;&#10;&#9;at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)&#13;&#10;&#9;at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)&#13;&#10;&#9;at org.testng.TestNG.runSuites(TestNG.java:1049)&#13;&#10;&#9;at org.testng.TestNG.run(TestNG.java:1017)&#13;&#10;&#9;at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)&#13;&#10;&#9;at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)&#13;&#10;"><![CDATA[When Switch To LinkedIn Website.............................................passed
+And Switch To Frame with US Region For LinkedIn.............................passed
+And Click on Setting menu in Salesforce Website Using US Region.............passed
+And Click on Salesforce Setting in Salesforce Website Using US Region.......passed
+And Click on Already logged in Salesforce account in Salesforce Website Using US Region.passed
+And Click on Logout in Salesforce Website Using US Region...................passed
+And Click on OK in Salesforce Website Using US Region.......................passed
+And Wait for Specific contact in Salesforce Website Using US Region.........passed
+And Click on Setting menu in Salesforce Website Using US Region.............passed
+And Click on Salesforce Setting in Salesforce Website Using US Region.......passed
+And Click on Already logged in Salesforce account in Salesforce Website Using US Region.passed
+And Click on Cancel in Salesforce Website Using US Region...................failed
+And Click on Select the Specific check box with US Region For LinkedIn......skipped
+And Click on Export Button with US Region For LinkedIn......................skipped
+And Click on Salesforce field with US Region For LinkedIn...................skipped
+And Click on Export as Contact with US Region For LinkedIn..................skipped
+And Click on Next Button in Contact Owner optional Page with US Region For LinkedIn.skipped
+And Click on Next Button in Campaigns optional Page with US Region For LinkedIn.skipped
+And Click on Next Button in Duplicates Page with US Region For LinkedIn.....skipped
+And Click on Close Button in Export Succeeded Page with US Region For LinkedIn.skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[contains(text(),'Cancel')]' (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at org.stepdefinition.Steps.click_on_Cancel_in_Salesforce_Website_Using_US_Region(Steps.java:1688)
+	at ✽.Click on Cancel in Salesforce Website Using US Region(file:src/test/resources/Features/TC03_Validate_Contact_With_LinkedIn_Site.feature:81)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Cancel')]"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YOGESH', ip: '172.16.17.120', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Astegic\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 504a5196ab2dda266bace0273c7422c0
+*** Element info: {Using=xpath, value=//button[contains(text(),'Cancel')]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at org.stepdefinition.Steps.click_on_Cancel_in_Salesforce_Website_Using_US_Region(Steps.java:1688)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:79)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]></failure>
+    </testcase>
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Exported contact displayed in Salesforce Website with US Region" time="158.820755">
+        <failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//div[@class='ni-name-div'])[1]' (tried for 60 second(s) with 500 milliseconds interval)&#13;&#10;&#9;at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)&#13;&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)&#13;&#10;&#9;at org.stepdefinition.Steps.validate_the_Exported_contact_displayed_in_Salesforce_Website(Steps.java:1728)&#13;&#10;&#9;at ✽.Validate the Exported contact displayed in Salesforce Website(file:src/test/resources/Features/TC03_Validate_Contact_With_LinkedIn_Site.feature:110)&#13;&#10;Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class='ni-name-div'])[1]&quot;}&#10;  (Session info: chrome=107.0.5304.88)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'YOGESH', ip: '172.16.17.120', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Astegic\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 504a5196ab2dda266bace0273c7422c0&#10;*** Element info: {Using=xpath, value=(//div[@class='ni-name-div'])[1]}&#13;&#10;&#9;at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at jdk.proxy2/jdk.proxy2.$Proxy23.isDisplayed(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)&#13;&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)&#13;&#10;&#9;at org.stepdefinition.Steps.validate_the_Exported_contact_displayed_in_Salesforce_Website(Steps.java:1728)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)&#13;&#10;&#9;at java.base/java.lang.reflect.Method.invoke(Method.java:577)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)&#13;&#10;&#9;at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:50)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:46)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:50)&#13;&#10;&#9;at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:79)&#13;&#10;&#9;at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:24)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)&#13;&#10;&#9;at java.base/java.lang.reflect.Method.invoke(Method.java:577)&#13;&#10;&#9;at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)&#13;&#10;&#9;at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)&#13;&#10;&#9;at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)&#13;&#10;&#9;at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)&#13;&#10;&#9;at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)&#13;&#10;&#9;at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)&#13;&#10;&#9;at org.testng.TestRunner.privateRun(TestRunner.java:648)&#13;&#10;&#9;at org.testng.TestRunner.run(TestRunner.java:505)&#13;&#10;&#9;at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)&#13;&#10;&#9;at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)&#13;&#10;&#9;at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)&#13;&#10;&#9;at org.testng.SuiteRunner.run(SuiteRunner.java:364)&#13;&#10;&#9;at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#13;&#10;&#9;at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)&#13;&#10;&#9;at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)&#13;&#10;&#9;at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)&#13;&#10;&#9;at org.testng.TestNG.runSuites(TestNG.java:1049)&#13;&#10;&#9;at org.testng.TestNG.run(TestNG.java:1017)&#13;&#10;&#9;at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)&#13;&#10;&#9;at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)&#13;&#10;"><![CDATA[When Switch To Salesforce Website...........................................passed
+And Click on Leads Button in Salesforce Website Using US Region.............passed
+And Click on Close Icon, If appears in Salesforce Website Using US Region...passed
+And Enter the Exported data in search box in Salesforce Website Using US Region.passed
+Then Validated the Exported data in Salesforce Website Using US Region......passed
+When Click on Chrome Extensions.............................................passed
+And Click on Salesforce Updated RevDriver by SalesIntel.....................passed
+And Switch To Frame with US Region For LinkedIn.............................passed
+Then Validate the Exported contact displayed in Salesforce Website..........failed
+When Switch From Frame To Webpage in Salesforce Website Using US Region.....skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//div[@class='ni-name-div'])[1]' (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at org.stepdefinition.Steps.validate_the_Exported_contact_displayed_in_Salesforce_Website(Steps.java:1728)
+	at ✽.Validate the Exported contact displayed in Salesforce Website(file:src/test/resources/Features/TC03_Validate_Contact_With_LinkedIn_Site.feature:110)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='ni-name-div'])[1]"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YOGESH', ip: '172.16.17.120', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Astegic\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 504a5196ab2dda266bace0273c7422c0
+*** Element info: {Using=xpath, value=(//div[@class='ni-name-div'])[1]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at org.stepdefinition.Steps.validate_the_Exported_contact_displayed_in_Salesforce_Website(Steps.java:1728)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:79)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]></failure>
+    </testcase>
+</testsuite>

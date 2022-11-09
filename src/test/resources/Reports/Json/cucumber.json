@@ -1,0 +1,1996 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-09T14:38:00.410Z",
+        "line": 4,
+        "name": "To validate application login page functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-login-page-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23885991800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the url",
+            "match": {
+              "location": "Steps.launch_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12374881200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Chrome_Extensions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6451967900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Pin From Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Pin_From_Chrome_Extensions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6489143000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on RevDriver by SalesIntel",
+            "match": {
+              "location": "Steps.click_on_RevDriver_by_SalesIntel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5135090000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Switch To Frame",
+            "match": {
+              "location": "Steps.switch_To_Frame()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191932200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter the UserName",
+            "match": {
+              "location": "Steps.enter_the_UserName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140253600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter the Password",
+            "match": {
+              "location": "Steps.enter_the_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8080228800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Login CTA",
+            "match": {
+              "location": "Steps.click_on_Login_CTA()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T14:39:03.165Z",
+        "line": 16,
+        "name": "To validate application 1st Contact\u0027s Name functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-1st-contact-s-name-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 309917000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253820000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on Contacts Email Button",
+            "match": {
+              "location": "Steps.click_on_Contacts_Email_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262999700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter the Firstname",
+            "match": {
+              "location": "Steps.enter_the_Firstname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251936000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter the Lastname",
+            "match": {
+              "location": "Steps.enter_the_Lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 257257800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20048984800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click on Reveal Button",
+            "match": {
+              "location": "Steps.click_on_Reveal_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 259637100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click on Cancel Button",
+            "match": {
+              "location": "Steps.click_on_Cancel_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3471389600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Wait Till Page Load To Display Select All Data",
+            "match": {
+              "location": "Steps.wait_Till_Page_Load_To_Display_Select_All_Data()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T14:39:28.282Z",
+        "line": 27,
+        "name": "To validate application 2nd Contact\u0027s Name functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-2nd-contact-s-name-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 293942200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 256154700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click on Contacts Email Button",
+            "match": {
+              "location": "Steps.click_on_Contacts_Email_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214742500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter the 2nd Contacts Firstname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.enter_the_nd_Contacts_Firstname(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 240428000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Enter the 2nd Contacts Lastname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.enter_the_nd_Contacts_Lastname(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214708500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20016554100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click on Reveal Button",
+            "match": {
+              "location": "Steps.click_on_Reveal_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229087100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click on Cancel Button",
+            "match": {
+              "location": "Steps.click_on_Cancel_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2896176700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Wait Till Page Load To Display Select All Data",
+            "match": {
+              "location": "Steps.wait_Till_Page_Load_To_Display_Select_All_Data()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T14:39:52.641Z",
+        "line": 38,
+        "name": "To validate application 1st Contact\u0027s Email functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-1st-contact-s-email-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 528430600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262729700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click on Contacts Name Email Button",
+            "match": {
+              "location": "Steps.click_on_Contacts_Name_Email_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320851400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Enter the 1st Contacts Email Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.enter_the_st_Contacts_Email_Address(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236845500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20026231800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Click on Reveal Button",
+            "match": {
+              "location": "Steps.click_on_Reveal_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236980900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Click on Cancel Button",
+            "match": {
+              "location": "Steps.click_on_Cancel_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2804545800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Wait Till Page Load To Display Select All Data",
+            "match": {
+              "location": "Steps.wait_Till_Page_Load_To_Display_Select_All_Data()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T14:40:17.063Z",
+        "line": 48,
+        "name": "To validate application 2nd Contact\u0027s Email functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-2nd-contact-s-email-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 597339600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 216838000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Click on Contacts Name Email Button",
+            "match": {
+              "location": "Steps.click_on_Contacts_Name_Email_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232851700,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Enter the 2nd Contacts Email Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.enter_the_nd_Contacts_Email_Address(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204331600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20062863700,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Click on Reveal Button",
+            "match": {
+              "location": "Steps.click_on_Reveal_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213483400,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Click on Cancel Button",
+            "match": {
+              "location": "Steps.click_on_Cancel_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1964125000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Wait Till Page Load To Display Select All Data",
+            "match": {
+              "location": "Steps.wait_Till_Page_Load_To_Display_Select_All_Data()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T14:40:40.561Z",
+        "line": 58,
+        "name": "To validate application Job Level functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-job-level-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 893822200,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1274455500,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Click on Job Level Button",
+            "match": {
+              "location": "Steps.click_on_Job_Level_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7427375000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Select All Checkbox Option in Job Level",
+            "match": {
+              "location": "Steps.select_All_Checkbox_Option_in_Job_Level()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229970400,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2893126600,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Click on Cancel Button",
+            "match": {
+              "location": "Steps.click_on_Cancel_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T14:40:53.282Z",
+        "line": 68,
+        "name": "To validate application Job Department functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-job-department-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10015450200,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I Wait for Page Load",
+            "match": {
+              "location": "Steps.i_Wait_for_Page_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 256303800,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1263143300,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Click on Job Department Button",
+            "match": {
+              "location": "Steps.click_on_Job_Department_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1373815200,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Select All Checkbox Option in Job Department",
+            "match": {
+              "location": "Steps.select_All_Checkbox_Option_in_Job_Department()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202043100,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2332120600,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Click on Cancel Button",
+            "match": {
+              "location": "Steps.click_on_Cancel_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T14:41:08.727Z",
+        "line": 79,
+        "name": "To validate application Job Title functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-job-title-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10008354400,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I Wait for Page Load",
+            "match": {
+              "location": "Steps.i_Wait_for_Page_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 273933200,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1264630600,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Click on Job Title Button",
+            "match": {
+              "location": "Steps.click_on_Job_Title_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219623100,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T14:41:20.496Z",
+        "line": 86,
+        "name": "To validate application Job Location functionality",
+        "description": "",
+        "id": "validate-application-login-page;to-validate-application-job-location-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2124661200,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Click on Filter Button",
+            "match": {
+              "location": "Steps.click_on_Filter_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1268131900,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Click on Job Location Button",
+            "match": {
+              "location": "Steps.click_on_Job_Location_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158330700,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Click on Search Button",
+            "match": {
+              "location": "Steps.click_on_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2195111000,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Close the Browser",
+            "match": {
+              "location": "Steps.close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Validate application login Page",
+    "description": "",
+    "id": "validate-application-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/TC02_Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-09T14:41:26.246Z",
+        "line": 4,
+        "name": "To validate application contact\u0027s Name in LinkedIn website using US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-contact-s-name-in-linkedin-website-using-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42844985600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the url with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.launch_the_url_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11528861800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Chrome_Extensions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6469124800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Pin From Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Pin_From_Chrome_Extensions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6558800900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on RevDriver by SalesIntel",
+            "match": {
+              "location": "Steps.click_on_RevDriver_by_SalesIntel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5073838300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161178100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter the UserName with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.enter_the_UserName_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128966500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter the Password with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.enter_the_Password_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6057216000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Login CTA with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Login_CTA_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 278846900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on Filter option with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Filter_option_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249905400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on Contacts Name Button with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Contacts_Email_Button_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273141900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter the Firstname with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.enter_the_Firstname_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254359200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter the Lastname with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.enter_the_Lastname_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2375109700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on Search Button with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Search_Button_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 315500600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click On LinkedIn Link Contact with US Region",
+            "match": {
+              "location": "Steps.click_On_LinkedIn_Link_Contact_with_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31274700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Switch To LinkedIn Website",
+            "match": {
+              "location": "Steps.switch_To_LinkedIn_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2647798300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click On Sign In Link In LinkedIn Website",
+            "match": {
+              "location": "Steps.click_On_Sign_In_Link_In_LinkedIn_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 466246700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Enter the Email Address In LinkedIn Website",
+            "match": {
+              "location": "Steps.enter_the_Email_Address_In_LinkedIn_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 465652800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter the Password In LinkedIn Website",
+            "match": {
+              "location": "Steps.enter_the_Password_In_LinkedIn_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12085842900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click on Agree\u0026Join Button",
+            "match": {
+              "location": "Steps.click_on_Agree_Join_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3005462600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I Close the current window",
+            "match": {
+              "location": "Steps.i_Close_the_current_window()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46648600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Switch To LinkedIn Website To SalesIntel Website",
+            "match": {
+              "location": "Steps.switch_To_LinkedIn_Website_To_SalesIntel_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5009927900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I Wait short period for Page Load",
+            "match": {
+              "location": "Steps.i_Wait_short_period_for_Page_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5062127500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 366401600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click On LinkedIn Link Contact with US Region In SalesIntel Website",
+            "match": {
+              "location": "Steps.click_On_LinkedIn_Link_Contact_with_US_Region_In_SalesIntel_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184179500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Switch To LinkedIn Website To Specific Contact Details",
+            "match": {
+              "location": "Steps.switch_To_LinkedIn_Website_To_Specific_Contact_Details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4464979400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I Wait Till My Network text to be displayed",
+            "match": {
+              "location": "Steps.i_Wait_Till_My_Network_text_to_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11505468300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click on Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Chrome_Extensions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6530659200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click on Updated RevDriver by SalesIntel",
+            "match": {
+              "location": "Steps.click_on_Updated_RevDriver_by_SalesIntel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5758572300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I Wait Till Specific Contact Details to be displayed",
+            "match": {
+              "location": "Steps.i_Wait_Till_Specific_Contact_Details_to_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103668100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I Validated Contact Details from Sales Intel Site and LinkedIn Site",
+            "match": {
+              "location": "Steps.i_Validated_Contact_Details_from_Sales_Intel_Site_and_LinkedIn_Site()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3013530400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I Close the current window",
+            "match": {
+              "location": "Steps.i_Close_the_current_window()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60082600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Switch To LinkedIn Website To SalesIntel Website",
+            "match": {
+              "location": "Steps.switch_To_LinkedIn_Website_To_SalesIntel_Website()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T14:43:49.629Z",
+        "line": 41,
+        "name": "To validate application Company Details as Adobe in LinkedIn website using US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-company-details-as-adobe-in-linkedin-website-using-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5001705800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I Wait short period for Page Load",
+            "match": {
+              "location": "Steps.i_Wait_short_period_for_Page_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5057742700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258580500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Click on Filter option with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Filter_option_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 259076700,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Click On Clear Button with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_On_Clear_Button_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204892000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Enter the Firstname with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.enter_the_Firstname_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201752100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Enter the Lastname with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.enter_the_Lastname_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2358818700,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Click on Search Button with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Search_Button_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 321342100,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Click On LinkedIn Link Contact with US Region",
+            "match": {
+              "location": "Steps.click_On_LinkedIn_Link_Contact_with_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26133600,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Switch To LinkedIn Website",
+            "match": {
+              "location": "Steps.switch_To_LinkedIn_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6138298900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Enter the Company name as Adobe in Search Field",
+            "match": {
+              "location": "Steps.enter_the_Company_name_as_Adobe_in_Search_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4021102000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Click On View Page with US Region In SalesIntel Website",
+            "match": {
+              "location": "Steps.click_On_View_Page_with_US_Region_In_SalesIntel_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11571384300,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Click on Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Chrome_Extensions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6580785400,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Click on Adobe Updated RevDriver by SalesIntel",
+            "match": {
+              "location": "Steps.click_on_Adobe_Updated_RevDriver_by_SalesIntel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5074929200,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4224050500,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Validate Adobe Text For US Region In SalesIntel Website",
+            "match": {
+              "location": "Steps.validate_Adobe_Text_For_US_Region_In_SalesIntel_Website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 119258200,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Get the name From SalesIntel Website In US Region",
+            "match": {
+              "location": "Steps.get_the_name_From_SalesIntel_Website_In_US_Region()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T14:44:41.051Z",
+        "line": 60,
+        "name": "To validate application Salesforce login with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-salesforce-login-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11079030800,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Open the New Tap and Launch the Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.open_the_New_Tap_and_Launch_the_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176353500,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Enter the Username in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.enter_the_Username_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 177927500,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Enter the Password in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.enter_the_Password_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2194148600,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Click on Remember me checkbox in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Remember_me_checkbox_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33987992200,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Click on login button after entering the credentials in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_login_button_after_entering_the_credentials_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T14:45:28.667Z",
+        "line": 68,
+        "name": "To validate application Export the contact using Salesforce website with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-export-the-contact-using-salesforce-website-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 56646100,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Switch To LinkedIn Website",
+            "match": {
+              "location": "Steps.switch_To_LinkedIn_Website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5058783500,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2313859400,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Click on Setting menu in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Setting_menu_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2239736100,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "Click on Salesforce Setting in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Salesforce_Setting_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2026533700,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Click on Already logged in Salesforce account in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Already_logged_in_Salesforce_account_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2322759900,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Click on Logout in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Logout_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2797182400,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Click on OK in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_OK_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8818700500,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Wait for Specific contact in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.wait_for_Specific_contact_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2210453600,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Click on Setting menu in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Setting_menu_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2221006400,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Click on Salesforce Setting in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Salesforce_Setting_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2005911200,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Click on Already logged in Salesforce account in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Already_logged_in_Salesforce_account_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator \u0027By.xpath: //button[contains(text(),\u0027Cancel\u0027)]\u0027 (tried for 60 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat org.stepdefinition.Steps.click_on_Cancel_in_Salesforce_Website_Using_US_Region(Steps.java:1688)\r\n\tat ✽.Click on Cancel in Salesforce Website Using US Region(file:src/test/resources/Features/TC03_Validate_Contact_With_LinkedIn_Site.feature:81)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),\u0027Cancel\u0027)]\"}\n  (Session info: chrome\u003d107.0.5304.88)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027YOGESH\u0027, ip: \u0027172.16.17.120\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.1.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\\Users\\Astegic\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 504a5196ab2dda266bace0273c7422c0\n*** Element info: {Using\u003dxpath, value\u003d//button[contains(text(),\u0027Cancel\u0027)]}\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy23.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat org.stepdefinition.Steps.click_on_Cancel_in_Salesforce_Website_Using_US_Region(Steps.java:1688)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:79)\r\n\tat io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:24)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+              "duration": 81272199700,
+              "status": "failed"
+            },
+            "line": 81,
+            "name": "Click on Cancel in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Cancel_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11200,
+              "status": "skipped"
+            },
+            "line": 82,
+            "name": "Click on Select the Specific check box with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Select_the_Specific_check_box_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2500,
+              "status": "skipped"
+            },
+            "line": 83,
+            "name": "Click on Export Button with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Export_Button_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1700,
+              "status": "skipped"
+            },
+            "line": 84,
+            "name": "Click on Salesforce field with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Saleesforce_field_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1300,
+              "status": "skipped"
+            },
+            "line": 89,
+            "name": "Click on Export as Contact with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Export_as_Contact_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1300,
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "Click on Next Button in Contact Owner optional Page with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Next_Button_in_Contact_Owner_optional_Page_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "line": 91,
+            "name": "Click on Next Button in Campaigns optional Page with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Next_Button_in_Campaigns_optional_Page_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1600,
+              "status": "skipped"
+            },
+            "line": 92,
+            "name": "Click on Next Button in Duplicates Page with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Next_Button_in_Duplicates_Page_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1600,
+              "status": "skipped"
+            },
+            "line": 93,
+            "name": "Click on Close Button in Export Succeeded Page with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Close_Button_in_Export_Succeeded_Page_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T14:47:22.031Z",
+        "line": 96,
+        "name": "To validate application Exported contact displayed in Salesforce Website with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-exported-contact-displayed-in-salesforce-website-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51900100,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "Switch To Salesforce Website",
+            "match": {
+              "location": "Steps.switch_To_Salesforce_Website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5854022500,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "Click on Leads Button in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Leads_Button_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20216044500,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "Click on Close Icon, If appears in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Close_Icon_If_appears_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3954972800,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "Enter the Exported data in search box in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.enter_the_Exported_data_in_search_box_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98972900,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "Validated the Exported data in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validated_the_Exported_data_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11486845300,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Click on Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Chrome_Extensions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30903992700,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "Click on Salesforce Updated RevDriver by SalesIntel",
+            "match": {
+              "location": "Steps.click_on_Salesforce_Updated_RevDriver_by_SalesIntel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5070042100,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.xpath: (//div[@class\u003d\u0027ni-name-div\u0027])[1]\u0027 (tried for 60 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat org.stepdefinition.Steps.validate_the_Exported_contact_displayed_in_Salesforce_Website(Steps.java:1728)\r\n\tat ✽.Validate the Exported contact displayed in Salesforce Website(file:src/test/resources/Features/TC03_Validate_Contact_With_LinkedIn_Site.feature:110)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//div[@class\u003d\u0027ni-name-div\u0027])[1]\"}\n  (Session info: chrome\u003d107.0.5304.88)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027YOGESH\u0027, ip: \u0027172.16.17.120\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.1.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\\Users\\Astegic\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 504a5196ab2dda266bace0273c7422c0\n*** Element info: {Using\u003dxpath, value\u003d(//div[@class\u003d\u0027ni-name-div\u0027])[1]}\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy23.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat org.stepdefinition.Steps.validate_the_Exported_contact_displayed_in_Salesforce_Website(Steps.java:1728)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:79)\r\n\tat io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:24)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+              "duration": 81183707600,
+              "status": "failed"
+            },
+            "line": 110,
+            "name": "Validate the Exported contact displayed in Salesforce Website",
+            "match": {
+              "location": "Steps.validate_the_Exported_contact_displayed_in_Salesforce_Website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3500,
+              "status": "skipped"
+            },
+            "line": 111,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Validate application Contact\u0027s in LinkedIn website using US Region",
+    "description": "",
+    "id": "validate-application-contact-s-in-linkedin-website-using-us-region",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/TC03_Validate_Contact_With_LinkedIn_Site.feature",
+    "tags": []
+  }
+]
