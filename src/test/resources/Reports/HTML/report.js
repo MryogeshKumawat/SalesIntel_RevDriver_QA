@@ -1397,8 +1397,7 @@ formatter.match({
   "location": "Steps.click_on_Cancel_in_Salesforce_Website_Using_US_Region()"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator \u0027By.xpath: //button[contains(text(),\u0027Cancel\u0027)]\u0027 (tried for 60 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat org.stepdefinition.Steps.click_on_Cancel_in_Salesforce_Website_Using_US_Region(Steps.java:1688)\r\n\tat ✽.Click on Cancel in Salesforce Website Using US Region(file:src/test/resources/Features/TC03_Validate_Contact_With_LinkedIn_Site.feature:81)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),\u0027Cancel\u0027)]\"}\n  (Session info: chrome\u003d107.0.5304.88)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027YOGESH\u0027, ip: \u0027172.16.17.120\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.1.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\\Users\\Astegic\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 504a5196ab2dda266bace0273c7422c0\n*** Element info: {Using\u003dxpath, value\u003d//button[contains(text(),\u0027Cancel\u0027)]}\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy23.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat org.stepdefinition.Steps.click_on_Cancel_in_Salesforce_Website_Using_US_Region(Steps.java:1688)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:79)\r\n\tat io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:24)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "Click on Select the Specific check box with US Region For LinkedIn",
@@ -1408,7 +1407,7 @@ formatter.match({
   "location": "Steps.click_on_Select_the_Specific_check_box_with_US_Region_For_LinkedIn()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Click on Export Button with US Region For LinkedIn",
@@ -1418,7 +1417,7 @@ formatter.match({
   "location": "Steps.click_on_Export_Button_with_US_Region_For_LinkedIn()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Click on Salesforce field with US Region For LinkedIn",
@@ -1428,7 +1427,7 @@ formatter.match({
   "location": "Steps.click_on_Saleesforce_field_with_US_Region_For_LinkedIn()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Click on Export as Contact with US Region For LinkedIn",
@@ -1438,7 +1437,7 @@ formatter.match({
   "location": "Steps.click_on_Export_as_Contact_with_US_Region_For_LinkedIn()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Click on Next Button in Contact Owner optional Page with US Region For LinkedIn",
@@ -1448,7 +1447,7 @@ formatter.match({
   "location": "Steps.click_on_Next_Button_in_Contact_Owner_optional_Page_with_US_Region_For_LinkedIn()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Click on Next Button in Campaigns optional Page with US Region For LinkedIn",
@@ -1458,7 +1457,7 @@ formatter.match({
   "location": "Steps.click_on_Next_Button_in_Campaigns_optional_Page_with_US_Region_For_LinkedIn()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Click on Next Button in Duplicates Page with US Region For LinkedIn",
@@ -1468,7 +1467,7 @@ formatter.match({
   "location": "Steps.click_on_Next_Button_in_Duplicates_Page_with_US_Region_For_LinkedIn()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Click on Close Button in Export Succeeded Page with US Region For LinkedIn",
@@ -1478,7 +1477,7 @@ formatter.match({
   "location": "Steps.click_on_Close_Button_in_Export_Succeeded_Page_with_US_Region_For_LinkedIn()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "To validate application Exported contact displayed in Salesforce Website with US Region",
@@ -1581,8 +1580,7 @@ formatter.match({
   "location": "Steps.validate_the_Exported_contact_displayed_in_Salesforce_Website()"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.xpath: (//div[@class\u003d\u0027ni-name-div\u0027])[1]\u0027 (tried for 60 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat org.stepdefinition.Steps.validate_the_Exported_contact_displayed_in_Salesforce_Website(Steps.java:1728)\r\n\tat ✽.Validate the Exported contact displayed in Salesforce Website(file:src/test/resources/Features/TC03_Validate_Contact_With_LinkedIn_Site.feature:110)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//div[@class\u003d\u0027ni-name-div\u0027])[1]\"}\n  (Session info: chrome\u003d107.0.5304.88)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027YOGESH\u0027, ip: \u0027172.16.17.120\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.1.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\\Users\\Astegic\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 504a5196ab2dda266bace0273c7422c0\n*** Element info: {Using\u003dxpath, value\u003d(//div[@class\u003d\u0027ni-name-div\u0027])[1]}\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy23.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat org.stepdefinition.Steps.validate_the_Exported_contact_displayed_in_Salesforce_Website(Steps.java:1728)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:79)\r\n\tat io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:24)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
@@ -1592,6 +1590,680 @@ formatter.match({
   "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "To validate application Salesforce HomePage with US Region",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    },
+    {
+      "name": "@Reg"
+    }
+  ]
+});
+formatter.step({
+  "name": "Click on Home Button in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.click_on_Home_Button_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Validate the customer name from Home page in Salesforce Website Using US Region",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.validate_the_customer_name_from_Home_page_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "To validate application Salesforce Accounts Page with US Region",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    },
+    {
+      "name": "@Reg"
+    }
+  ]
+});
+formatter.step({
+  "name": "Click on Account Button in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.click_on_Account_Button_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Validate the customer name from Account page in Salesforce Website Using US Region",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.validate_the_customer_name_from_Account_page_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on Account Page-My Accounts Dropdown in Salesforce Website Using US Region",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.click_on_Account_Page_My_Accounts_Dropdown_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Validate the customer name from Account page-My Accounts Dropdown in Salesforce Website Using US Region",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.validate_the_customer_name_from_Account_page_My_Accounts_Dropdown_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "To validate application Salesforce Contacts Page with US Region",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    },
+    {
+      "name": "@Reg"
+    }
+  ]
+});
+formatter.step({
+  "name": "Click on Contacts Button in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.click_on_Contacts_Button_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Validate the customer name from Contacts page in Salesforce Website Using US Region",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.validate_the_customer_name_from_Contacts_page_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on Contacts Page-My Accounts Dropdown in Salesforce Website Using US Region",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.click_on_Contacts_Page_My_Accounts_Dropdown_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Validate the customer name from Contacts page-Recently Viewed Contacts Dropdown in Salesforce Website Using US Region",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.validate_the_customer_name_from_Contacts_page_Recently_Viewed_Contacts_Dropdown_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "To validate application Salesforce Leads Page with US Region",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    },
+    {
+      "name": "@Reg"
+    }
+  ]
+});
+formatter.step({
+  "name": "Click on Leads Button in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.click_on_Leads_Button_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Validate the customer name from Leads page in Salesforce Website Using US Region",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.validate_the_customer_name_from_Leads_page_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on Leads Page-All Open Leads Dropdown in Salesforce Website Using US Region",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.click_on_Leads_Page_All_Open_Leads_Dropdown_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Validate the customer name from Leads page-All Open Leads Dropdown in Salesforce Website Using US Region",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.validate_the_customer_name_from_Leads_page_All_Open_Leads_Dropdown_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "To validate application Salesforce Switch to Lightning Experience-HomePage with US Region",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    },
+    {
+      "name": "@Reg"
+    }
+  ]
+});
+formatter.step({
+  "name": "Click on Switch to Lightning Experience Label in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.click_on_Switch_to_Lightning_Experience_Label_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on Switch to Lightning Experience-Home label in Salesforce Website Using US Region",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.click_on_Switch_to_Lightning_Experience_Home_label_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Validate the customer name from Home page in Salesforce Website Using US Region",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.validate_the_customer_name_from_Home_page_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "To validate application Salesforce Switch to Lightning Experience-Accounts Page with US Region",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    },
+    {
+      "name": "@Reg"
+    }
+  ]
+});
+formatter.step({
+  "name": "Click on Switch to Lightning Experience-Accounts label in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.click_on_Switch_to_Lightning_Experience_Accounts_label_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Validate the customer name from Accounts page in Salesforce Website Using US Region",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.validate_the_customer_name_from_Accounts_page_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on Switch to Lightning Experience-My Accounts label in Salesforce Website Using US Region",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.click_on_Switch_to_Lightning_Experience_My_Accounts_label_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Validate the customer name from Accounts page-My Accounts in Salesforce Website Using US Region",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.validate_the_customer_name_from_Accounts_page_My_Accounts_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "To validate application Salesforce Switch to Lightning Experience-Contacts Page with US Region",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    },
+    {
+      "name": "@Reg"
+    }
+  ]
+});
+formatter.step({
+  "name": "Click on Switch to Lightning Experience-Contacts label in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.click_on_Switch_to_Lightning_Experience_Contacts_label_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Validate the customer name from Contacts page in Salesforce Website Using US Region",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.validate_the_customer_name_from_Contacts_page_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on Switch to Lightning Experience-Recently Viewed Contacts label in Salesforce Website Using US Region",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.click_on_Switch_to_Lightning_Experience_Recently_Viewed_Contacts_label_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Validate the customer name from Contacts page-Recently Viewed Contacts in Salesforce Website Using US Region",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.validate_the_customer_name_from_Contacts_page_Recently_Viewed_Contacts_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "To validate application Salesforce Switch to Lightning Experience-Leads Page with US Region",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    },
+    {
+      "name": "@Reg"
+    }
+  ]
+});
+formatter.step({
+  "name": "Click on Switch to Lightning Experience-Leads label in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.click_on_Switch_to_Lightning_Experience_Leads_label_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Validate the customer name from Leads page in Salesforce Website Using US Region",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.validate_the_customer_name_from_Leads_page_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on Switch to Lightning Experience-All Open Leads label in Salesforce Website Using US Region",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.click_on_Switch_to_Lightning_Experience_All_Open_Leads_label_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Validate the customer name from Leads page-All Open Leads in Salesforce Website Using US Region",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.validate_the_customer_name_from_Leads_page_All_Open_Leads_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
 });
 });

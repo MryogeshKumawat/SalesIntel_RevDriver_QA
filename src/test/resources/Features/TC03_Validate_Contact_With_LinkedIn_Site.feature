@@ -110,14 +110,16 @@
   Then Validate the Exported contact displayed in Salesforce Website
   When Switch From Frame To Webpage in Salesforce Website Using US Region
   
-  @Sanity1 @Reg1
+  @Sanity
+
+  @Reg
   Scenario: To validate application Salesforce HomePage with US Region
   When Click on Home Button in Salesforce Website Using US Region
   And Switch To Frame with US Region For LinkedIn
   Then Validate the customer name from Home page in Salesforce Website Using US Region
   When Switch From Frame To Webpage in Salesforce Website Using US Region
   
-  @Sanity1 @Reg1
+  @Sanity @Reg
   Scenario: To validate application Salesforce Accounts Page with US Region
   When Click on Account Button in Salesforce Website Using US Region
   And Switch To Frame with US Region For LinkedIn
@@ -128,7 +130,7 @@
   Then Validate the customer name from Account page-My Accounts Dropdown in Salesforce Website Using US Region
   When Switch From Frame To Webpage in Salesforce Website Using US Region
   
-  @Sanity1 @Reg1
+  @Sanity @Reg
   Scenario: To validate application Salesforce Contacts Page with US Region
   When Click on Contacts Button in Salesforce Website Using US Region
   And Switch To Frame with US Region For LinkedIn
@@ -139,7 +141,7 @@
   Then Validate the customer name from Contacts page-Recently Viewed Contacts Dropdown in Salesforce Website Using US Region
   When Switch From Frame To Webpage in Salesforce Website Using US Region
   
-  @Sanity1 @Reg1
+  @Sanity @Reg
   Scenario: To validate application Salesforce Leads Page with US Region
   When Click on Leads Button in Salesforce Website Using US Region
   And Switch To Frame with US Region For LinkedIn
@@ -150,7 +152,7 @@
   Then Validate the customer name from Leads page-All Open Leads Dropdown in Salesforce Website Using US Region
   When Switch From Frame To Webpage in Salesforce Website Using US Region
   
-  @Sanity1 @Reg1
+  @Sanity @Reg
   Scenario: To validate application Salesforce Switch to Lightning Experience-HomePage with US Region
   When Click on Switch to Lightning Experience Label in Salesforce Website Using US Region
   And Click on Switch to Lightning Experience-Home label in Salesforce Website Using US Region
@@ -158,7 +160,7 @@
   Then Validate the customer name from Home page in Salesforce Website Using US Region
   When Switch From Frame To Webpage in Salesforce Website Using US Region
   
-  @Sanity1 @Reg1
+  @Sanity @Reg
   Scenario: To validate application Salesforce Switch to Lightning Experience-Accounts Page with US Region
   When Click on Switch to Lightning Experience-Accounts label in Salesforce Website Using US Region
   And Switch To Frame with US Region For LinkedIn
@@ -169,7 +171,7 @@
   Then Validate the customer name from Accounts page-My Accounts in Salesforce Website Using US Region
   When Switch From Frame To Webpage in Salesforce Website Using US Region
   
-  @Sanity1 @Reg1
+  @Sanity @Reg
   Scenario: To validate application Salesforce Switch to Lightning Experience-Contacts Page with US Region
   When Click on Switch to Lightning Experience-Contacts label in Salesforce Website Using US Region
   And Switch To Frame with US Region For LinkedIn
@@ -180,7 +182,7 @@
   Then Validate the customer name from Contacts page-Recently Viewed Contacts in Salesforce Website Using US Region
   When Switch From Frame To Webpage in Salesforce Website Using US Region
   
-  @Sanity1 @Reg1
+  @Sanity @Reg
   Scenario: To validate application Salesforce Switch to Lightning Experience-Leads Page with US Region
   When Click on Switch to Lightning Experience-Leads label in Salesforce Website Using US Region
   And Switch To Frame with US Region For LinkedIn
