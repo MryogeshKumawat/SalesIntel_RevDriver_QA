@@ -1,6 +1,6 @@
 Feature: Validate application login Page
 
-  @Sanity @Reg
+	@Sanity1 @Reg1
   Scenario: To validate application login page functionality
   Given Launch the url
   When Click on Chrome Extensions
@@ -12,7 +12,7 @@ Feature: Validate application login Page
   And Enter the Password
   And Click on Login CTA
   
-  @Sanity @Reg
+  @Sanity1 @Reg1
   Scenario: To validate application 1st Contact's Name functionality
   When Click on Filter Button
   And Click on Contacts Email Button
@@ -23,7 +23,7 @@ Feature: Validate application login Page
   And Click on Cancel Button
   And Wait Till Page Load To Display Select All Data 
   
-  @Sanity @Reg
+  @Sanity1 @Reg1
   Scenario: To validate application 2nd Contact's Name functionality
   When Click on Filter Button
   And Click on Contacts Email Button
@@ -34,7 +34,7 @@ Feature: Validate application login Page
   And Click on Cancel Button
   And Wait Till Page Load To Display Select All Data 
   
-  @Sanity @Reg
+  @Sanity1 @Reg1
   Scenario: To validate application 1st Contact's Email functionality
   When Click on Filter Button
   And Click on Contacts Name Email Button
@@ -44,7 +44,7 @@ Feature: Validate application login Page
   And Click on Cancel Button
   And Wait Till Page Load To Display Select All Data 
   
-  @Sanity @Reg
+  @Sanity1 @Reg1
   Scenario: To validate application 2nd Contact's Email functionality
   When Click on Filter Button
   And Click on Contacts Name Email Button
@@ -54,7 +54,7 @@ Feature: Validate application login Page
   And Click on Cancel Button
   And Wait Till Page Load To Display Select All Data 
   
-  @Sanity @Reg
+  @Sanity1 @Reg1
   Scenario: To validate application Job Level functionality
   When Click on Filter Button
   And Click on Job Level Button
@@ -64,7 +64,7 @@ Feature: Validate application login Page
   #And UnSelect All Checkbox Option in Job Level
   #And Click on Job Level Button
   
-  @Sanity @Reg
+  @Sanity1 @Reg1
   Scenario: To validate application Job Department functionality
   Then I Wait for Page Load
   When Click on Filter Button
@@ -75,14 +75,14 @@ Feature: Validate application login Page
    #And UnSelect All Checkbox Option in Job Department
    #And Click on Job Department Button
   
-  @Sanity @Reg
+  @Sanity1 @Reg1
   Scenario: To validate application Job Title functionality
   Then I Wait for Page Load
   When Click on Filter Button
   And Click on Job Title Button
   And Click on Search Button
   
-  @Sanity @Reg
+  @Sanity1 @Reg1
   Scenario: To validate application Job Location functionality
   When Click on Filter Button
   And Click on Job Location Button

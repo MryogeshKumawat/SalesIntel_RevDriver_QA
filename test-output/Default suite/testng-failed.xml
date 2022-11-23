@@ -5,7 +5,7 @@
     <classes>
       <class name="org.runner.Runner">
         <methods>
-          <include name="runScenario" invocation-numbers="3 10 11 12"/>
+          <include name="runScenario" invocation-numbers="6"/>
           <include name="tearDownClass"/>
           <include name="cucumberReportGenerate"/>
           <include name="setUpClass"/>

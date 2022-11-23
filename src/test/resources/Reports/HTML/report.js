@@ -1,697 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/Features/TC02_Login.feature");
-formatter.feature({
-  "name": "Validate application login Page",
-  "description": "",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "name": "To validate application login page functionality",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@Sanity"
-    },
-    {
-      "name": "@Reg"
-    }
-  ]
-});
-formatter.step({
-  "name": "Launch the url",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Steps.launch_the_url()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Chrome Extensions",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Steps.click_on_Chrome_Extensions()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Pin From Chrome Extensions",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Pin_From_Chrome_Extensions()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on RevDriver by SalesIntel",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_RevDriver_by_SalesIntel()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Switch To Frame",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.switch_To_Frame()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Enter the UserName",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.enter_the_UserName()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Enter the Password",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.enter_the_Password()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Login CTA",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Login_CTA()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "To validate application 1st Contact\u0027s Name functionality",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@Sanity"
-    },
-    {
-      "name": "@Reg"
-    }
-  ]
-});
-formatter.step({
-  "name": "Click on Filter Button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Steps.click_on_Filter_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Contacts Email Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Contacts_Email_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Enter the Firstname",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.enter_the_Firstname()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Enter the Lastname",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.enter_the_Lastname()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Search Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Search_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Reveal Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Reveal_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Cancel Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Cancel_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Wait Till Page Load To Display Select All Data",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.wait_Till_Page_Load_To_Display_Select_All_Data()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "To validate application 2nd Contact\u0027s Name functionality",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@Sanity"
-    },
-    {
-      "name": "@Reg"
-    }
-  ]
-});
-formatter.step({
-  "name": "Click on Filter Button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Steps.click_on_Filter_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Contacts Email Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Contacts_Email_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Enter the 2nd Contacts Firstname",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.enter_the_nd_Contacts_Firstname(Integer)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Enter the 2nd Contacts Lastname",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.enter_the_nd_Contacts_Lastname(Integer)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Search Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Search_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Reveal Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Reveal_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Cancel Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Cancel_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Wait Till Page Load To Display Select All Data",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.wait_Till_Page_Load_To_Display_Select_All_Data()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "To validate application 1st Contact\u0027s Email functionality",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@Sanity"
-    },
-    {
-      "name": "@Reg"
-    }
-  ]
-});
-formatter.step({
-  "name": "Click on Filter Button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Steps.click_on_Filter_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Contacts Name Email Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Contacts_Name_Email_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Enter the 1st Contacts Email Address",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.enter_the_st_Contacts_Email_Address(Integer)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Search Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Search_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Reveal Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Reveal_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Cancel Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Cancel_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Wait Till Page Load To Display Select All Data",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.wait_Till_Page_Load_To_Display_Select_All_Data()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "To validate application 2nd Contact\u0027s Email functionality",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@Sanity"
-    },
-    {
-      "name": "@Reg"
-    }
-  ]
-});
-formatter.step({
-  "name": "Click on Filter Button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Steps.click_on_Filter_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Contacts Name Email Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Contacts_Name_Email_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Enter the 2nd Contacts Email Address",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.enter_the_nd_Contacts_Email_Address(Integer)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Search Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Search_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Reveal Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Reveal_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Cancel Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Cancel_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Wait Till Page Load To Display Select All Data",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.wait_Till_Page_Load_To_Display_Select_All_Data()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "To validate application Job Level functionality",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@Sanity"
-    },
-    {
-      "name": "@Reg"
-    }
-  ]
-});
-formatter.step({
-  "name": "Click on Filter Button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Steps.click_on_Filter_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Job Level Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Job_Level_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Select All Checkbox Option in Job Level",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.select_All_Checkbox_Option_in_Job_Level()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Search Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Search_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Cancel Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Cancel_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "To validate application Job Department functionality",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@Sanity"
-    },
-    {
-      "name": "@Reg"
-    }
-  ]
-});
-formatter.step({
-  "name": "I Wait for Page Load",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Steps.i_Wait_for_Page_Load()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Filter Button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Steps.click_on_Filter_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Job Department Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Job_Department_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Select All Checkbox Option in Job Department",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.select_All_Checkbox_Option_in_Job_Department()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Search Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Search_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Cancel Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Cancel_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "To validate application Job Title functionality",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@Sanity"
-    },
-    {
-      "name": "@Reg"
-    }
-  ]
-});
-formatter.step({
-  "name": "I Wait for Page Load",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Steps.i_Wait_for_Page_Load()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Filter Button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Steps.click_on_Filter_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Job Title Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Job_Title_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Search Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Search_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "To validate application Job Location functionality",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@Sanity"
-    },
-    {
-      "name": "@Reg"
-    }
-  ]
-});
-formatter.step({
-  "name": "Click on Filter Button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Steps.click_on_Filter_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Job Location Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Job_Location_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click on Search Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Search_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Close the Browser",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.close_the_Browser()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.uri("file:src/test/resources/Features/TC03_Validate_Contact_With_LinkedIn_Site.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/Features/TC03_Validate_Contact_With_LinkedIn_Site.feature");
 formatter.feature({
   "name": "Validate application Contact\u0027s in LinkedIn website using US Region",
   "description": "",
@@ -1204,6 +511,99 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
+  "name": "To validate application Job Description Details as IT Head in Adobe in LinkedIn website using US Region",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    },
+    {
+      "name": "@Reg"
+    }
+  ]
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Enter the Job Description Details as IT Head  in Search Field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.enter_the_Job_Description_Details_as_IT_Head_in_Search_Field()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Get the Customer name From SalesIntel Website",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.get_the_Customer_name_From_SalesIntel_Website()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Enter the Company name as Adobe in Search Field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.enter_the_Company_name_as_Adobe_in_Search_Field()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click On View Page with US Region In SalesIntel Website",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.click_On_View_Page_with_US_Region_In_SalesIntel_Website()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I Wait short period for Page Load",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.i_Wait_short_period_for_Page_Load()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
   "name": "To validate application Salesforce login with US Region",
   "description": "",
   "keyword": "Scenario",
@@ -1582,12 +982,88 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "To validate application Exported contact along with company details-Adobe displayed in Salesforce Website with US Region",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    },
+    {
+      "name": "@Reg"
+    }
+  ]
+});
 formatter.step({
   "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
   "keyword": "When "
 });
 formatter.match({
   "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "To validate application Job Description Details as IT Head is displayed in Salesforce Website with US Region",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Sanity"
+    },
+    {
+      "name": "@Reg"
+    }
+  ]
+});
+formatter.step({
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Enter the data as IT Head in search box in Salesforce Website Using US Region",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.enter_the_data_as_IT_Head_in_search_box_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Switch To Frame with US Region For LinkedIn",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Get the Customer name From SalesIntel Website",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Steps.get_the_Customer_name_From_SalesIntel_Website()"
 });
 formatter.result({
   "status": "passed"
@@ -1606,8 +1082,18 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "Click on Home Button in Salesforce Website Using US Region",
+  "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
   "keyword": "When "
+});
+formatter.match({
+  "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on Home Button in Salesforce Website Using US Region",
+  "keyword": "And "
 });
 formatter.match({
   "location": "Steps.click_on_Home_Button_in_Salesforce_Website_Using_US_Region()"

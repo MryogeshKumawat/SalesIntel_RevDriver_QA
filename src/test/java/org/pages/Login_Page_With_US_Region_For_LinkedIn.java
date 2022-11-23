@@ -234,6 +234,13 @@ public class Login_Page_With_US_Region_For_LinkedIn extends Global {
 	@FindBy(xpath = "//input[@id='phSearchButton']")
 	private WebElement linkedIn_Website_Salesforce_Search_Button;
 	
+	@FindBy(xpath = "(//th[contains(@class,'dataCell')]//following::td)[2]")
+	private WebElement salesforce_Adobe_Company_Name;
+	
+	@FindBy(xpath = "//span[@class='ni-company']//a[text()='Adobe']")
+	private WebElement salesforce_Rev_Driver_Adobe_Company_Name;
+	
+	
 	public List<WebElement> getContacts_Email_Select_All_List() {
 		return contacts_Email_Select_All_List;
 	}
@@ -528,6 +535,14 @@ public class Login_Page_With_US_Region_For_LinkedIn extends Global {
 
 	public WebElement getLinkedIn_Website_Salesforce_Search_Button() {
 		return linkedIn_Website_Salesforce_Search_Button;
+	}
+
+	public WebElement getSalesforce_Adobe_Company_Name() {
+		return salesforce_Adobe_Company_Name;
+	}
+
+	public WebElement getSalesforce_Rev_Driver_Adobe_Company_Name() {
+		return salesforce_Rev_Driver_Adobe_Company_Name;
 	}
 
 }

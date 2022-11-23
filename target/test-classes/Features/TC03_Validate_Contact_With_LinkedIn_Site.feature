@@ -57,6 +57,17 @@
   And Get the name From SalesIntel Website In US Region
   
   @Sanity @Reg
+  Scenario: To validate application Job Description Details as IT Head in Adobe in LinkedIn website using US Region
+  When Switch From Frame To Webpage in Salesforce Website Using US Region
+  And Enter the Job Description Details as IT Head  in Search Field
+  And Switch To Frame with US Region For LinkedIn
+  And Get the Customer name From SalesIntel Website
+  And Switch From Frame To Webpage in Salesforce Website Using US Region
+  And Enter the Company name as Adobe in Search Field
+  And Click On View Page with US Region In SalesIntel Website
+  Then I Wait short period for Page Load
+  
+  @Sanity @Reg
   Scenario: To validate application Salesforce login with US Region
   Given Open the New Tap and Launch the Salesforce Website Using US Region
   When Enter the Username in Salesforce Website Using US Region
@@ -108,13 +119,25 @@
   #And Enter the Lastname as Exported Last Name with US Region For LinkedIn
   #And Click on Search Button for Exported Name in Salesforce Website Using US Region
   Then Validate the Exported contact displayed in Salesforce Website
-  When Switch From Frame To Webpage in Salesforce Website Using US Region
   
-  @Sanity
-
-  @Reg
+  @Sanity @Reg
+  Scenario: To validate application Exported contact along with company details-Adobe displayed in Salesforce Website with US Region
+  When Switch From Frame To Webpage in Salesforce Website Using US Region
+#  Then Validated the Company details in Salesforce Website Using US Region
+  And Switch To Frame with US Region For LinkedIn
+#  Then Validated the Company details in Salesforce Rev Driver Using US Region
+  
+  @Sanity @Reg
+  Scenario: To validate application Job Description Details as IT Head is displayed in Salesforce Website with US Region
+  When Switch From Frame To Webpage in Salesforce Website Using US Region
+  And Enter the data as IT Head in search box in Salesforce Website Using US Region
+  And Switch To Frame with US Region For LinkedIn
+  And Get the Customer name From SalesIntel Website
+  
+  @Sanity @Reg
   Scenario: To validate application Salesforce HomePage with US Region
-  When Click on Home Button in Salesforce Website Using US Region
+  When Switch From Frame To Webpage in Salesforce Website Using US Region
+  And Click on Home Button in Salesforce Website Using US Region
   And Switch To Frame with US Region For LinkedIn
   Then Validate the customer name from Home page in Salesforce Website Using US Region
   When Switch From Frame To Webpage in Salesforce Website Using US Region

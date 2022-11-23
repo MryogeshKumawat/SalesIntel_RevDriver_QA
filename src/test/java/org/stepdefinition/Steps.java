@@ -113,7 +113,7 @@ public class Steps extends Global {
 	@When("Click on Login CTA")
 	public void click_on_Login_CTA() {
 		clickButton(PageObjectManager.getInstance().getLoginPage().getLoginCTA());
-		WebDriverWait webDriverWait = new WebDriverWait(driver, 120);
+		WebDriverWait webDriverWait = new WebDriverWait(driver, 60);
 		webDriverWait.until(
 				ExpectedConditions.elementToBeClickable(PageObjectManager.getInstance().getLoginPage().getFilter()));
 	}
@@ -135,7 +135,7 @@ public class Steps extends Global {
 	@When("Click on Filter Button")
 	public void click_on_Filter_Button() {
 		if (PageObjectManager.getInstance().getLoginPage().getFilter_List().size() != 0) {
-			WebDriverWait webDriverWait = new WebDriverWait(driver, 120);
+			WebDriverWait webDriverWait = new WebDriverWait(driver, 60);
 			webDriverWait.until(ExpectedConditions
 					.elementToBeClickable(PageObjectManager.getInstance().getLoginPage().getFilter()));
 			clickButton(PageObjectManager.getInstance().getLoginPage().getFilter());
@@ -145,7 +145,7 @@ public class Steps extends Global {
 
 	@When("Click on Contacts Email Button")
 	public void click_on_Contacts_Email_Button() {
-		WebDriverWait webDriverWait = new WebDriverWait(driver, 120);
+		WebDriverWait webDriverWait = new WebDriverWait(driver, 60);
 		webDriverWait.until(ExpectedConditions
 				.elementToBeClickable(PageObjectManager.getInstance().getContactEmailPage().getContacts_Email()));
 		PageObjectManager.getInstance();
@@ -154,7 +154,7 @@ public class Steps extends Global {
 
 	@When("Enter the Firstname")
 	public void enter_the_Firstname() throws Throwable, Throwable {
-		WebDriverWait webDriverWait = new WebDriverWait(driver, 120);
+		WebDriverWait webDriverWait = new WebDriverWait(driver, 60);
 		webDriverWait.until(ExpectedConditions
 				.visibilityOf(PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_First_Name()));
 		enterData(PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_First_Name(),
@@ -165,7 +165,7 @@ public class Steps extends Global {
 
 	@When("Enter the Lastname")
 	public void enter_the_Lastname() throws Throwable, Throwable {
-		WebDriverWait webDriverWait = new WebDriverWait(driver, 120);
+		WebDriverWait webDriverWait = new WebDriverWait(driver, 60);
 		webDriverWait.until(ExpectedConditions
 				.visibilityOf(PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_Last_Name()));
 		enterData(PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_Last_Name(),
@@ -176,7 +176,7 @@ public class Steps extends Global {
 
 	@When("Click on Search Button")
 	public void click_on_Search_Button() {
-		WebDriverWait webDriverWait = new WebDriverWait(driver, 120);
+		WebDriverWait webDriverWait = new WebDriverWait(driver, 60);
 		webDriverWait.until(ExpectedConditions.elementToBeClickable(
 				PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_Search()));
 		clickButton(PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_Search());
@@ -185,7 +185,7 @@ public class Steps extends Global {
 	@When("Click on Reveal Button")
 	public void click_on_Reveal_Button() {
 		if (PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_Reveal_Button_List().size() != 0) {
-			WebDriverWait webDriverWait = new WebDriverWait(driver, 120);
+			WebDriverWait webDriverWait = new WebDriverWait(driver, 60);
 			webDriverWait.until(ExpectedConditions.elementToBeClickable(
 					PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_Reveal_Button()));
 			clickButton(PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_Reveal_Button());
@@ -203,7 +203,7 @@ public class Steps extends Global {
 	@When("Wait Till Page Load To Display Select All Data")
 	public void wait_Till_Page_Load_To_Display_Select_All_Data() {
 		if (PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_Select_All_List().size() != 0) {
-			WebDriverWait webDriverWait = new WebDriverWait(driver, 120);
+			WebDriverWait webDriverWait = new WebDriverWait(driver, 60);
 			webDriverWait.until(ExpectedConditions.elementToBeClickable(
 					PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_Select_All()));
 		}
@@ -211,7 +211,7 @@ public class Steps extends Global {
 
 	@When("Enter the {int}nd Contacts Firstname")
 	public void enter_the_nd_Contacts_Firstname(Integer int1) throws Throwable {
-		WebDriverWait webDriverWait = new WebDriverWait(driver, 120);
+		WebDriverWait webDriverWait = new WebDriverWait(driver, 60);
 		webDriverWait.until(ExpectedConditions
 				.visibilityOf(PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_First_Name()));
 		enterData(PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_First_Name(),
@@ -222,7 +222,7 @@ public class Steps extends Global {
 
 	@When("Enter the {int}nd Contacts Lastname")
 	public void enter_the_nd_Contacts_Lastname(Integer int1) throws Throwable {
-		WebDriverWait webDriverWait = new WebDriverWait(driver, 120);
+		WebDriverWait webDriverWait = new WebDriverWait(driver, 60);
 		webDriverWait.until(ExpectedConditions
 				.visibilityOf(PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_Last_Name()));
 		enterData(PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_Last_Name(),
@@ -241,7 +241,7 @@ public class Steps extends Global {
 
 	@When("Enter the {int}st Contacts Email Address")
 	public void enter_the_st_Contacts_Email_Address(Integer int1) throws Throwable {
-		WebDriverWait webDriverWait = new WebDriverWait(driver, 120);
+		WebDriverWait webDriverWait = new WebDriverWait(driver, 60);
 		webDriverWait.until(ExpectedConditions
 				.visibilityOf(PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_Input_Field()));
 		enterData(PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_Input_Field(),
@@ -252,7 +252,7 @@ public class Steps extends Global {
 
 	@When("Enter the {int}nd Contacts Email Address")
 	public void enter_the_nd_Contacts_Email_Address(Integer int1) throws Throwable {
-		WebDriverWait webDriverWait = new WebDriverWait(driver, 120);
+		WebDriverWait webDriverWait = new WebDriverWait(driver, 60);
 		webDriverWait.until(ExpectedConditions
 				.visibilityOf(PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_Input_Field()));
 		enterData(PageObjectManager.getInstance().getContactEmailPage().getContacts_Email_Input_Field(),
@@ -915,6 +915,9 @@ public class Steps extends Global {
 		WebDriverWait webDriverWait = new WebDriverWait(driver_For_LinkedIn, 60);
 		webDriverWait.until(ExpectedConditions
 				.visibilityOf(PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Search_Button()));
+
+		PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Search_Button().clear();
+
 		enterData(PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Search_Button(),
 				retrieveJsonObjectFromJsonFile(
 						System.getProperty("user.dir") + "\\src\\test\\resources\\Json_Data_Storage\\Json_Data.json",
@@ -974,8 +977,7 @@ public class Steps extends Global {
 		 */
 		String[] split = expectedData.split(" ");
 		firstName = split[0];
-		lastName = split[2];
-
+		lastName = split[1];
 	}
 
 	@When("Click on Select all check box with US Region For LinkedIn")
@@ -1652,7 +1654,10 @@ public class Steps extends Global {
 		webDriverWait.until(ExpectedConditions.elementToBeClickable(
 				PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Salesforce_Logout_Button()));
 		Thread.sleep(2000);
-		clickButton(PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Salesforce_Logout_Button());
+		JavascriptExecutor javascriptExecutor1 = (JavascriptExecutor) driver_For_LinkedIn;
+		javascriptExecutor1.executeScript("arguments[0].click();",
+				PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Salesforce_Logout_Button());
+//		clickButton(PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Salesforce_Logout_Button());
 	}
 
 	@When("Wait for Specific contact in Salesforce Website Using US Region")
@@ -1665,7 +1670,7 @@ public class Steps extends Global {
 
 	@When("Click on Already logged in Salesforce account in Salesforce Website Using US Region")
 	public void click_on_Already_logged_in_Salesforce_account_in_Salesforce_Website_Using_US_Region() throws Throwable {
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		Robot robot = new Robot();
 		robot.keyPress(KeyEvent.VK_TAB);
 		robot.keyRelease(KeyEvent.VK_TAB);
@@ -1673,13 +1678,20 @@ public class Steps extends Global {
 		robot.keyRelease(KeyEvent.VK_TAB);
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		robot.keyPress(KeyEvent.VK_TAB);
 		robot.keyRelease(KeyEvent.VK_TAB);
 		robot.keyPress(KeyEvent.VK_TAB);
 		robot.keyRelease(KeyEvent.VK_TAB);
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
+//		Thread.sleep(1000);
+//		robot.keyPress(KeyEvent.VK_TAB);
+//		robot.keyRelease(KeyEvent.VK_TAB);
+//		robot.keyPress(KeyEvent.VK_TAB);
+//		robot.keyRelease(KeyEvent.VK_TAB);
+//		robot.keyPress(KeyEvent.VK_ENTER);
+//		robot.keyRelease(KeyEvent.VK_ENTER);
 	}
 
 	@When("Click on Cancel in Salesforce Website Using US Region")
@@ -1740,6 +1752,74 @@ public class Steps extends Global {
 				PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Salesforce_OK_Button()));
 		Thread.sleep(2000);
 		clickButton(PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Salesforce_OK_Button());
+	}
+
+	@When("Enter the Job Description Details as IT Head  in Search Field")
+	public void enter_the_Job_Description_Details_as_IT_Head_in_Search_Field() throws Throwable {
+		WebDriverWait webDriverWait = new WebDriverWait(driver_For_LinkedIn, 60);
+		webDriverWait.until(ExpectedConditions
+				.visibilityOf(PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Search_Button()));
+
+		PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Search_Button().clear();
+
+		enterData(PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Search_Button(),
+				retrieveJsonObjectFromJsonFile(
+						System.getProperty("user.dir") + "\\src\\test\\resources\\Json_Data_Storage\\Json_Data.json",
+						"Job Description"));
+		Thread.sleep(2000);
+		Robot robot = new Robot();
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyRelease(KeyEvent.VK_ENTER);
+	}
+
+	@When("Get the Customer name From SalesIntel Website")
+	public void get_the_Customer_name_From_SalesIntel_Website() {
+		WebDriverWait webDriverWait = new WebDriverWait(driver_For_LinkedIn, 120);
+		webDriverWait.until(ExpectedConditions.elementToBeClickable(
+				PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Salesforce_Cutomer_name()));
+		System.err.println("Customer Name: " + PageObjectManager.getInstance().getFor_LinkedIn()
+				.getLinkedIn_Website_Salesforce_Cutomer_name().getText());
+	}
+
+	@Then("Validated the Company details in Salesforce Website Using US Region")
+	public void validated_the_Company_details_in_Salesforce_Website_Using_US_Region() throws Throwable {
+		WebDriverWait webDriverWait = new WebDriverWait(driver_For_LinkedIn, 60);
+		webDriverWait.until(ExpectedConditions
+				.visibilityOf(PageObjectManager.getInstance().getFor_LinkedIn().getSalesforce_Adobe_Company_Name()));
+		System.err.println("Company Name From Salesforce Website: "
+				+ PageObjectManager.getInstance().getFor_LinkedIn().getSalesforce_Adobe_Company_Name().getText());
+		Assert.assertEquals(
+				PageObjectManager.getInstance().getFor_LinkedIn().getSalesforce_Adobe_Company_Name().getText(),
+				retrieveJsonObjectFromJsonFile(
+						System.getProperty("user.dir") + "\\src\\test\\resources\\Json_Data_Storage\\Json_Data.json",
+						"Company_Name"));
+	}
+
+	@Then("Validated the Company details in Salesforce Rev Driver Using US Region")
+	public void validated_the_Company_details_in_Salesforce_Rev_Driver_Using_US_Region() throws Throwable {
+		WebDriverWait webDriverWait = new WebDriverWait(driver_For_LinkedIn, 60);
+		webDriverWait.until(ExpectedConditions.elementToBeClickable(
+				PageObjectManager.getInstance().getFor_LinkedIn().getSalesforce_Rev_Driver_Adobe_Company_Name()));
+		System.err.println("Company Name From Salesforce Rev Driver: " + PageObjectManager.getInstance()
+				.getFor_LinkedIn().getSalesforce_Rev_Driver_Adobe_Company_Name().getText());
+
+		Assert.assertEquals(
+				PageObjectManager.getInstance().getFor_LinkedIn().getSalesforce_Rev_Driver_Adobe_Company_Name()
+						.getText(),
+				retrieveJsonObjectFromJsonFile(
+						System.getProperty("user.dir") + "\\src\\test\\resources\\Json_Data_Storage\\Json_Data.json",
+						"Company_Name"));
+	}
+
+	@When("Enter the data as IT Head in search box in Salesforce Website Using US Region")
+	public void enter_the_data_as_IT_Head_in_search_box_in_Salesforce_Website_Using_US_Region() throws Throwable {
+		WebDriverWait webDriverWait = new WebDriverWait(driver_For_LinkedIn, 60);
+		webDriverWait.until(ExpectedConditions.elementToBeClickable(
+				PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Salesforce_Search_Text_Field()));
+		enterData(PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Salesforce_Search_Text_Field(),
+				"IT Head");
+		Thread.sleep(2000);
+		clickButton(PageObjectManager.getInstance().getFor_LinkedIn().getLinkedIn_Website_Salesforce_Search_Button());
 	}
 
 }

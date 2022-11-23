@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Sep 07 19:31:04 IST 2022</td>
+<td>Started on:</td><td>Thu Nov 17 16:46:42 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>53 seconds (53877 ms)</td>
+<tr><td>Total time:</td><td>602 seconds (602453 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,73 +67,92 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application login page functionality", "Validate application login Page"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@type=&apos;text&apos;]&quot;}
-  (Session info: chrome=105.0.5195.52)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NHCLPT520&apos;, ip: &apos;192.168.29.251&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\400121~1.LNT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 37a20e4eb300c8ab22436f98ef6d451e
-*** Element info: {Using=xpath, value=//input[@type=&apos;text&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-	at org.base.Global.enterData(Global.java:47)
-	at org.stepdefinition.Steps.enter_the_UserName(Steps.java:51)
-	at ?.Enter the UserName(file:src/test/resources/Features/Login.feature:9)
-... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace770314814", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace770314814'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@type=&apos;text&apos;]&quot;}
-  (Session info: chrome=105.0.5195.52)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NHCLPT520&apos;, ip: &apos;192.168.29.251&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\400121~1.LNT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 37a20e4eb300c8ab22436f98ef6d451e
-*** Element info: {Using=xpath, value=//input[@type=&apos;text&apos;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-	at org.base.Global.enterData(Global.java:47)
-	at org.stepdefinition.Steps.enter_the_UserName(Steps.java:51)
-	at ?.Enter the UserName(file:src/test/resources/Features/Login.feature:9)
-</pre></div></td>
-<td>53</td>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application contact's Name in LinkedIn website using US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>106</td>
+<td>org.runner.Runner@4b41dd5c</td></tr>
+<tr>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application Company Details as Adobe in LinkedIn website using US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>46</td>
+<td>org.runner.Runner@4b41dd5c</td></tr>
+<tr>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application Job Description Details as IT Head in Adobe in LinkedIn website using US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>31</td>
+<td>org.runner.Runner@4b41dd5c</td></tr>
+<tr>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application Salesforce login with US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>33</td>
+<td>org.runner.Runner@4b41dd5c</td></tr>
+<tr>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application Export the contact using Salesforce website with US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>74</td>
+<td>org.runner.Runner@4b41dd5c</td></tr>
+<tr>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application Exported contact displayed in Salesforce Website with US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>50</td>
+<td>org.runner.Runner@4b41dd5c</td></tr>
+<tr>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application Exported contact along with company details displayed in Salesforce Website with US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>10</td>
+<td>org.runner.Runner@4b41dd5c</td></tr>
+<tr>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application Job Description Details as IT Head is displayed in Salesforce Website with US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>12</td>
+<td>org.runner.Runner@4b41dd5c</td></tr>
+<tr>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application Salesforce HomePage with US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>21</td>
+<td>org.runner.Runner@4b41dd5c</td></tr>
+<tr>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application Salesforce Accounts Page with US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>43</td>
+<td>org.runner.Runner@4b41dd5c</td></tr>
+<tr>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application Salesforce Contacts Page with US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>25</td>
+<td>org.runner.Runner@4b41dd5c</td></tr>
+<tr>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application Salesforce Leads Page with US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>24</td>
+<td>org.runner.Runner@4b41dd5c</td></tr>
+<tr>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application Salesforce Switch to Lightning Experience-HomePage with US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>27</td>
+<td>org.runner.Runner@4b41dd5c</td></tr>
+<tr>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application Salesforce Switch to Lightning Experience-Accounts Page with US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>38</td>
+<td>org.runner.Runner@4b41dd5c</td></tr>
+<tr>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application Salesforce Switch to Lightning Experience-Contacts Page with US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>27</td>
+<td>org.runner.Runner@4b41dd5c</td></tr>
+<tr>
+<td title='org.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate application Salesforce Switch to Lightning Experience-Leads Page with US Region", "Validate application Contact's in LinkedIn website using US Region"</td>
+<td></td>
+<td>26</td>
 <td>org.runner.Runner@4b41dd5c</td></tr>
 </table><p>
 </body>
