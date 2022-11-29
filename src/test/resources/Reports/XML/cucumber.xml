@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="16" time="665.635447">
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application contact's Name in LinkedIn website using US Region" time="157.654418">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="16" time="667.975731">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application contact's Name in LinkedIn website using US Region" time="158.012968">
         <system-out><![CDATA[Given Launch the url with US Region For LinkedIn............................passed
 When Click on Chrome Extensions.............................................passed
 And Click on Pin From Chrome Extensions.....................................passed
@@ -35,7 +35,7 @@ Then I Close the current window.............................................pass
 And Switch To LinkedIn Website To SalesIntel Website........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Company Details as Adobe in LinkedIn website using US Region" time="49.365755">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Company Details as Adobe in LinkedIn website using US Region" time="50.937039">
         <system-out><![CDATA[Then I Wait short period for Page Load......................................passed
 And Switch To Frame with US Region For LinkedIn.............................passed
 When Click on Filter option with US Region For LinkedIn.....................passed
@@ -54,7 +54,7 @@ Then Validate Adobe Text For US Region In SalesIntel Website................pass
 And Get the name From SalesIntel Website In US Region.......................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Job Description Details as IT Head in Adobe in LinkedIn website using US Region" time="33.085295">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Job Description Details as IT Head in Adobe in LinkedIn website using US Region" time="32.114515">
         <system-out><![CDATA[When Switch From Frame To Webpage in Salesforce Website Using US Region.....passed
 And Enter the Job Description Details as IT Head  in Search Field...........passed
 And Switch To Frame with US Region For LinkedIn.............................passed
@@ -65,7 +65,7 @@ And Click On View Page with US Region In SalesIntel Website.................pass
 Then I Wait short period for Page Load......................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce login with US Region" time="42.555285">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce login with US Region" time="44.421701">
         <system-out><![CDATA[Given Open the New Tap and Launch the Salesforce Website Using US Region....passed
 When Enter the Username in Salesforce Website Using US Region...............passed
 And Enter the Password in Salesforce Website Using US Region................passed
@@ -73,7 +73,7 @@ And Click on Remember me checkbox in Salesforce Website Using US Region.....pass
 And Click on login button after entering the credentials in Salesforce Website Using US Region.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Export the contact using Salesforce website with US Region" time="68.302599">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Export the contact using Salesforce website with US Region" time="70.338267">
         <system-out><![CDATA[When Switch To LinkedIn Website.............................................passed
 And Switch To Frame with US Region For LinkedIn.............................passed
 And Click on Setting menu in Salesforce Website Using US Region.............passed
@@ -96,7 +96,7 @@ And Click on Next Button in Duplicates Page with US Region For LinkedIn.....pass
 And Click on Close Button in Export Succeeded Page with US Region For LinkedIn.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Exported contact displayed in Salesforce Website with US Region" time="73.432168">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Exported contact displayed in Salesforce Website with US Region" time="72.707157">
         <system-out><![CDATA[When Switch To Salesforce Website...........................................passed
 And Click on Leads Button in Salesforce Website Using US Region.............passed
 And Click on Close Icon, If appears in Salesforce Website Using US Region...passed
@@ -108,19 +108,19 @@ And Switch To Frame with US Region For LinkedIn.............................pass
 Then Validate the Exported contact displayed in Salesforce Website..........passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Exported contact along with company details-Adobe displayed in Salesforce Website with US Region" time="10.073043">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Exported contact along with company details-Adobe displayed in Salesforce Website with US Region" time="10.073503">
         <system-out><![CDATA[When Switch From Frame To Webpage in Salesforce Website Using US Region.....passed
 And Switch To Frame with US Region For LinkedIn.............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Job Description Details as IT Head is displayed in Salesforce Website with US Region" time="14.184714">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Job Description Details as IT Head is displayed in Salesforce Website with US Region" time="13.244358">
         <system-out><![CDATA[When Switch From Frame To Webpage in Salesforce Website Using US Region.....passed
 And Enter the data as IT Head in search box in Salesforce Website Using US Region.passed
 And Switch To Frame with US Region For LinkedIn.............................passed
 And Get the Customer name From SalesIntel Website...........................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce HomePage with US Region" time="19.751064">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce HomePage with US Region" time="18.311829">
         <system-out><![CDATA[When Switch From Frame To Webpage in Salesforce Website Using US Region.....passed
 And Click on Home Button in Salesforce Website Using US Region..............passed
 And Switch To Frame with US Region For LinkedIn.............................passed
@@ -128,7 +128,7 @@ Then Validate the customer name from Home page in Salesforce Website Using US Re
 When Switch From Frame To Webpage in Salesforce Website Using US Region.....passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce Accounts Page with US Region" time="30.572414">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce Accounts Page with US Region" time="30.160024">
         <system-out><![CDATA[When Click on Account Button in Salesforce Website Using US Region..........passed
 And Switch To Frame with US Region For LinkedIn.............................passed
 Then Validate the customer name from Account page in Salesforce Website Using US Region.passed
@@ -139,7 +139,7 @@ Then Validate the customer name from Account page-My Accounts Dropdown in Salesf
 When Switch From Frame To Webpage in Salesforce Website Using US Region.....passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce Contacts Page with US Region" time="25.632708">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce Contacts Page with US Region" time="25.654488">
         <system-out><![CDATA[When Click on Contacts Button in Salesforce Website Using US Region.........passed
 And Switch To Frame with US Region For LinkedIn.............................passed
 Then Validate the customer name from Contacts page in Salesforce Website Using US Region.passed
@@ -150,7 +150,7 @@ Then Validate the customer name from Contacts page-Recently Viewed Contacts Drop
 When Switch From Frame To Webpage in Salesforce Website Using US Region.....passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce Leads Page with US Region" time="25.407171">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce Leads Page with US Region" time="25.298157">
         <system-out><![CDATA[When Click on Leads Button in Salesforce Website Using US Region............passed
 And Switch To Frame with US Region For LinkedIn.............................passed
 Then Validate the customer name from Leads page in Salesforce Website Using US Region.passed
@@ -161,7 +161,7 @@ Then Validate the customer name from Leads page-All Open Leads Dropdown in Sales
 When Switch From Frame To Webpage in Salesforce Website Using US Region.....passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce Switch to Lightning Experience-HomePage with US Region" time="22.887906">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce Switch to Lightning Experience-HomePage with US Region" time="21.97228">
         <system-out><![CDATA[When Click on Switch to Lightning Experience Label in Salesforce Website Using US Region.passed
 And Click on Switch to Lightning Experience-Home label in Salesforce Website Using US Region.passed
 And Switch To Frame with US Region For LinkedIn.............................passed
@@ -169,7 +169,7 @@ Then Validate the customer name from Home page in Salesforce Website Using US Re
 When Switch From Frame To Webpage in Salesforce Website Using US Region.....passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce Switch to Lightning Experience-Accounts Page with US Region" time="38.203462">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce Switch to Lightning Experience-Accounts Page with US Region" time="39.95726">
         <system-out><![CDATA[When Click on Switch to Lightning Experience-Accounts label in Salesforce Website Using US Region.passed
 And Switch To Frame with US Region For LinkedIn.............................passed
 Then Validate the customer name from Accounts page in Salesforce Website Using US Region.passed
@@ -180,7 +180,7 @@ Then Validate the customer name from Accounts page-My Accounts in Salesforce Web
 When Switch From Frame To Webpage in Salesforce Website Using US Region.....passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce Switch to Lightning Experience-Contacts Page with US Region" time="27.235721">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce Switch to Lightning Experience-Contacts Page with US Region" time="27.327111">
         <system-out><![CDATA[When Click on Switch to Lightning Experience-Contacts label in Salesforce Website Using US Region.passed
 And Switch To Frame with US Region For LinkedIn.............................passed
 Then Validate the customer name from Contacts page in Salesforce Website Using US Region.passed
@@ -191,7 +191,7 @@ Then Validate the customer name from Contacts page-Recently Viewed Contacts in S
 When Switch From Frame To Webpage in Salesforce Website Using US Region.....passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce Switch to Lightning Experience-Leads Page with US Region" time="27.291724">
+    <testcase classname="Validate application Contact's in LinkedIn website using US Region" name="To validate application Salesforce Switch to Lightning Experience-Leads Page with US Region" time="27.445074">
         <system-out><![CDATA[When Click on Switch to Lightning Experience-Leads label in Salesforce Website Using US Region.passed
 And Switch To Frame with US Region For LinkedIn.............................passed
 Then Validate the customer name from Leads page in Salesforce Website Using US Region.passed

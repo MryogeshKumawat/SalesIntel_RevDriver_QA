@@ -1,0 +1,2165 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-28T05:24:11.344Z",
+        "line": 4,
+        "name": "To validate application contact\u0027s Name in LinkedIn website using US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-contact-s-name-in-linkedin-website-using-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28975689700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the url with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.launch_the_url_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12414866700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Chrome_Extensions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6459216200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Pin From Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Pin_From_Chrome_Extensions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6478879200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on RevDriver by SalesIntel",
+            "match": {
+              "location": "Steps.click_on_RevDriver_by_SalesIntel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5077098700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154010400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter the UserName with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.enter_the_UserName_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127222500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter the Password with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.enter_the_Password_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11969417300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Login CTA with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Login_CTA_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275452700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on Filter option with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Filter_option_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266115500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on Contacts Name Button with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Contacts_Email_Button_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263514500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter the Firstname with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.enter_the_Firstname_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222409600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter the Lastname with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.enter_the_Lastname_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2403848400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on Search Button with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Search_Button_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 269045000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click On LinkedIn Link Contact with US Region",
+            "match": {
+              "location": "Steps.click_On_LinkedIn_Link_Contact_with_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27898700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Switch To LinkedIn Website",
+            "match": {
+              "location": "Steps.switch_To_LinkedIn_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2077093300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click On Sign In Link In LinkedIn Website",
+            "match": {
+              "location": "Steps.click_On_Sign_In_Link_In_LinkedIn_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320079600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Enter the Email Address In LinkedIn Website",
+            "match": {
+              "location": "Steps.enter_the_Email_Address_In_LinkedIn_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 424279500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter the Password In LinkedIn Website",
+            "match": {
+              "location": "Steps.enter_the_Password_In_LinkedIn_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34839051200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click on Agree\u0026Join Button",
+            "match": {
+              "location": "Steps.click_on_Agree_Join_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3008648900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I Close the current window",
+            "match": {
+              "location": "Steps.i_Close_the_current_window()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54324300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Switch To LinkedIn Website To SalesIntel Website",
+            "match": {
+              "location": "Steps.switch_To_LinkedIn_Website_To_SalesIntel_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5013969200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I Wait short period for Page Load",
+            "match": {
+              "location": "Steps.i_Wait_short_period_for_Page_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5051469500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 354065600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click On LinkedIn Link Contact with US Region In SalesIntel Website",
+            "match": {
+              "location": "Steps.click_On_LinkedIn_Link_Contact_with_US_Region_In_SalesIntel_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42169300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Switch To LinkedIn Website To Specific Contact Details",
+            "match": {
+              "location": "Steps.switch_To_LinkedIn_Website_To_Specific_Contact_Details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5055956800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I Wait Till My Network text to be displayed",
+            "match": {
+              "location": "Steps.i_Wait_Till_My_Network_text_to_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11447632500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click on Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Chrome_Extensions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6465978000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click on Updated RevDriver by SalesIntel",
+            "match": {
+              "location": "Steps.click_on_Updated_RevDriver_by_SalesIntel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4948855000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I Wait Till Specific Contact Details to be displayed",
+            "match": {
+              "location": "Steps.i_Wait_Till_Specific_Contact_Details_to_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 89930200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I Validated Contact Details from Sales Intel Site and LinkedIn Site",
+            "match": {
+              "location": "Steps.i_Validated_Contact_Details_from_Sales_Intel_Site_and_LinkedIn_Site()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3016408300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I Close the current window",
+            "match": {
+              "location": "Steps.i_Close_the_current_window()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56669300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Switch To LinkedIn Website To SalesIntel Website",
+            "match": {
+              "location": "Steps.switch_To_LinkedIn_Website_To_SalesIntel_Website()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T05:26:49.002Z",
+        "line": 41,
+        "name": "To validate application Company Details as Adobe in LinkedIn website using US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-company-details-as-adobe-in-linkedin-website-using-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5005613600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I Wait short period for Page Load",
+            "match": {
+              "location": "Steps.i_Wait_short_period_for_Page_Load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5049780900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263768600,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Click on Filter option with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Filter_option_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 224625300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Click On Clear Button with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_On_Clear_Button_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204376400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Enter the Firstname with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.enter_the_Firstname_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197532600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Enter the Lastname with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.enter_the_Lastname_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2369251000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Click on Search Button with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Search_Button_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287672200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Click On LinkedIn Link Contact with US Region",
+            "match": {
+              "location": "Steps.click_On_LinkedIn_Link_Contact_with_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25553600,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Switch To LinkedIn Website",
+            "match": {
+              "location": "Steps.switch_To_LinkedIn_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5010489400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Enter the Company name as Adobe in Search Field",
+            "match": {
+              "location": "Steps.enter_the_Company_name_as_Adobe_in_Search_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4165684500,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Click On View Page with US Region In SalesIntel Website",
+            "match": {
+              "location": "Steps.click_On_View_Page_with_US_Region_In_SalesIntel_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11455561400,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Click on Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Chrome_Extensions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6621793900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Click on Adobe Updated RevDriver by SalesIntel",
+            "match": {
+              "location": "Steps.click_on_Adobe_Updated_RevDriver_by_SalesIntel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5074836200,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3324336300,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Validate Adobe Text For US Region In SalesIntel Website",
+            "match": {
+              "location": "Steps.validate_Adobe_Text_For_US_Region_In_SalesIntel_Website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84162800,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Get the name From SalesIntel Website In US Region",
+            "match": {
+              "location": "Steps.get_the_name_From_SalesIntel_Website_In_US_Region()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T05:27:38.370Z",
+        "line": 60,
+        "name": "To validate application Job Description Details as IT Head in Adobe in LinkedIn website using US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-job-description-details-as-it-head-in-adobe-in-linkedin-website-using-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5009173600,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2299180500,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Enter the Job Description Details as IT Head  in Search Field",
+            "match": {
+              "location": "Steps.enter_the_Job_Description_Details_as_IT_Head_in_Search_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5049876000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4518505200,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Get the Customer name From SalesIntel Website",
+            "match": {
+              "location": "Steps.get_the_Customer_name_From_SalesIntel_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5022785800,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2518674300,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Enter the Company name as Adobe in Search Field",
+            "match": {
+              "location": "Steps.enter_the_Company_name_as_Adobe_in_Search_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3654534400,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Click On View Page with US Region In SalesIntel Website",
+            "match": {
+              "location": "Steps.click_On_View_Page_with_US_Region_In_SalesIntel_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5012140300,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I Wait short period for Page Load",
+            "match": {
+              "location": "Steps.i_Wait_short_period_for_Page_Load()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T05:28:11.458Z",
+        "line": 71,
+        "name": "To validate application Salesforce login with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-salesforce-login-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11157818000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Open the New Tap and Launch the Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.open_the_New_Tap_and_Launch_the_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 181323100,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "Enter the Username in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.enter_the_Username_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162543800,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Enter the Password in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.enter_the_Password_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2203063000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Click on Remember me checkbox in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Remember_me_checkbox_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28850233800,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Click on login button after entering the credentials in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_login_button_after_entering_the_credentials_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T05:28:54.018Z",
+        "line": 79,
+        "name": "To validate application Export the contact using Salesforce website with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-export-the-contact-using-salesforce-website-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38460100,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Switch To LinkedIn Website",
+            "match": {
+              "location": "Steps.switch_To_LinkedIn_Website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5075283800,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2243710800,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Click on Setting menu in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Setting_menu_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2247320300,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Click on Salesforce Setting in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Salesforce_Setting_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4018966100,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Click on Already logged in Salesforce account in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Already_logged_in_Salesforce_account_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2207568800,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Click on Logout in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Logout_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2782870900,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Click on OK in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_OK_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1113680000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Wait for Specific contact in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.wait_for_Specific_contact_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2263389400,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Click on Setting menu in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Setting_menu_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2205129000,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Click on Salesforce Setting in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Salesforce_Setting_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4026387600,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "Click on Already logged in Salesforce account in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Already_logged_in_Salesforce_account_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5548427800,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "Click on Cancel in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Cancel_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4506566400,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "Click on Select the Specific check box with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Select_the_Specific_check_box_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251701800,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "Click on Export Button with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Export_Button_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2237444000,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "Click on Salesforce field with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Saleesforce_field_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8153675800,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "Click on Export as Contact with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Export_as_Contact_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2248625600,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "Click on Next Button in Contact Owner optional Page with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Next_Button_in_Contact_Owner_optional_Page_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2234117100,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Click on Next Button in Campaigns optional Page with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Next_Button_in_Campaigns_optional_Page_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4499372900,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "Click on Next Button in Duplicates Page with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Next_Button_in_Duplicates_Page_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10399137700,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "Click on Close Button in Export Succeeded Page with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.click_on_Close_Button_in_Export_Succeeded_Page_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T05:30:02.323Z",
+        "line": 107,
+        "name": "To validate application Exported contact displayed in Salesforce Website with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-exported-contact-displayed-in-salesforce-website-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27487800,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "Switch To Salesforce Website",
+            "match": {
+              "location": "Steps.switch_To_Salesforce_Website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3295807900,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "Click on Leads Button in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Leads_Button_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40112160000,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "Click on Close Icon, If appears in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Close_Icon_If_appears_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4628350400,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "Enter the Exported data in search box in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.enter_the_Exported_data_in_search_box_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82267800,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "Validated the Exported data in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validated_the_Exported_data_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11440958700,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "Click on Chrome Extensions",
+            "match": {
+              "location": "Steps.click_on_Chrome_Extensions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8632255600,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "Click on Salesforce Updated RevDriver by SalesIntel",
+            "match": {
+              "location": "Steps.click_on_Salesforce_Updated_RevDriver_by_SalesIntel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5078466700,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133882800,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "Validate the Exported contact displayed in Salesforce Website",
+            "match": {
+              "location": "Steps.validate_the_Exported_contact_displayed_in_Salesforce_Website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T05:31:15.756Z",
+        "line": 124,
+        "name": "To validate application Exported contact along with company details-Adobe displayed in Salesforce Website with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-exported-contact-along-with-company-details-adobe-displayed-in-salesforce-website-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5014616800,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5058325900,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T05:31:25.831Z",
+        "line": 131,
+        "name": "To validate application Job Description Details as IT Head is displayed in Salesforce Website with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-job-description-details-as-it-head-is-displayed-in-salesforce-website-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5014486600,
+              "status": "passed"
+            },
+            "line": 132,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2976652800,
+              "status": "passed"
+            },
+            "line": 133,
+            "name": "Enter the data as IT Head in search box in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.enter_the_data_as_IT_Head_in_search_box_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5065993000,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1127430600,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "Get the Customer name From SalesIntel Website",
+            "match": {
+              "location": "Steps.get_the_Customer_name_From_SalesIntel_Website()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T05:31:40.016Z",
+        "line": 138,
+        "name": "To validate application Salesforce HomePage with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-salesforce-homepage-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5013680500,
+              "status": "passed"
+            },
+            "line": 139,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3491562000,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "Click on Home Button in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Home_Button_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5072765200,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1156307700,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "Validate the customer name from Home page in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validate_the_customer_name_from_Home_page_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5016398000,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T05:31:59.771Z",
+        "line": 146,
+        "name": "To validate application Salesforce Accounts Page with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-salesforce-accounts-page-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2859898200,
+              "status": "passed"
+            },
+            "line": 147,
+            "name": "Click on Account Button in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Account_Button_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5074766100,
+              "status": "passed"
+            },
+            "line": 148,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5242258800,
+              "status": "passed"
+            },
+            "line": 149,
+            "name": "Validate the customer name from Account page in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validate_the_customer_name_from_Account_page_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5008304000,
+              "status": "passed"
+            },
+            "line": 150,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2219846700,
+              "status": "passed"
+            },
+            "line": 151,
+            "name": "Click on Account Page-My Accounts Dropdown in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Account_Page_My_Accounts_Dropdown_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5042630000,
+              "status": "passed"
+            },
+            "line": 152,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114950300,
+              "status": "passed"
+            },
+            "line": 153,
+            "name": "Validate the customer name from Account page-My Accounts Dropdown in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validate_the_customer_name_from_Account_page_My_Accounts_Dropdown_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5009278500,
+              "status": "passed"
+            },
+            "line": 154,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T05:32:30.344Z",
+        "line": 157,
+        "name": "To validate application Salesforce Contacts Page with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-salesforce-contacts-page-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3062940700,
+              "status": "passed"
+            },
+            "line": 158,
+            "name": "Click on Contacts Button in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Contacts_Button_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5071965200,
+              "status": "passed"
+            },
+            "line": 159,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136861900,
+              "status": "passed"
+            },
+            "line": 160,
+            "name": "Validate the customer name from Contacts page in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validate_the_customer_name_from_Contacts_page_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5007232000,
+              "status": "passed"
+            },
+            "line": 161,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2193505500,
+              "status": "passed"
+            },
+            "line": 162,
+            "name": "Click on Contacts Page-My Accounts Dropdown in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Contacts_Page_My_Accounts_Dropdown_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5046812500,
+              "status": "passed"
+            },
+            "line": 163,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101443700,
+              "status": "passed"
+            },
+            "line": 164,
+            "name": "Validate the customer name from Contacts page-Recently Viewed Contacts Dropdown in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validate_the_customer_name_from_Contacts_page_Recently_Viewed_Contacts_Dropdown_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5011723900,
+              "status": "passed"
+            },
+            "line": 165,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T05:32:55.980Z",
+        "line": 168,
+        "name": "To validate application Salesforce Leads Page with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-salesforce-leads-page-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2833341700,
+              "status": "passed"
+            },
+            "line": 169,
+            "name": "Click on Leads Button in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Leads_Button_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5072259300,
+              "status": "passed"
+            },
+            "line": 170,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117671000,
+              "status": "passed"
+            },
+            "line": 171,
+            "name": "Validate the customer name from Leads page in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validate_the_customer_name_from_Leads_page_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5022271500,
+              "status": "passed"
+            },
+            "line": 172,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2202560700,
+              "status": "passed"
+            },
+            "line": 173,
+            "name": "Click on Leads Page-All Open Leads Dropdown in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Leads_Page_All_Open_Leads_Dropdown_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5045767900,
+              "status": "passed"
+            },
+            "line": 174,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102045400,
+              "status": "passed"
+            },
+            "line": 175,
+            "name": "Validate the customer name from Leads page-All Open Leads Dropdown in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validate_the_customer_name_from_Leads_page_All_Open_Leads_Dropdown_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5011009100,
+              "status": "passed"
+            },
+            "line": 176,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T05:33:21.389Z",
+        "line": 179,
+        "name": "To validate application Salesforce Switch to Lightning Experience-HomePage with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-salesforce-switch-to-lightning-experience-homepage-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5505658200,
+              "status": "passed"
+            },
+            "line": 180,
+            "name": "Click on Switch to Lightning Experience Label in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Switch_to_Lightning_Experience_Label_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5178978800,
+              "status": "passed"
+            },
+            "line": 181,
+            "name": "Click on Switch to Lightning Experience-Home label in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Switch_to_Lightning_Experience_Home_label_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5075880000,
+              "status": "passed"
+            },
+            "line": 182,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2109136700,
+              "status": "passed"
+            },
+            "line": 183,
+            "name": "Validate the customer name from Home page in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validate_the_customer_name_from_Home_page_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5018105000,
+              "status": "passed"
+            },
+            "line": 184,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T05:33:44.279Z",
+        "line": 187,
+        "name": "To validate application Salesforce Switch to Lightning Experience-Accounts Page with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-salesforce-switch-to-lightning-experience-accounts-page-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2278604700,
+              "status": "passed"
+            },
+            "line": 188,
+            "name": "Click on Switch to Lightning Experience-Accounts label in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Switch_to_Lightning_Experience_Accounts_label_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5050532000,
+              "status": "passed"
+            },
+            "line": 189,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4371048200,
+              "status": "passed"
+            },
+            "line": 190,
+            "name": "Validate the customer name from Accounts page in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validate_the_customer_name_from_Accounts_page_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5016659200,
+              "status": "passed"
+            },
+            "line": 191,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4755714400,
+              "status": "passed"
+            },
+            "line": 192,
+            "name": "Click on Switch to Lightning Experience-My Accounts label in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Switch_to_Lightning_Experience_My_Accounts_label_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5063159000,
+              "status": "passed"
+            },
+            "line": 193,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6653521900,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "Validate the customer name from Accounts page-My Accounts in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validate_the_customer_name_from_Accounts_page_My_Accounts_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5014000000,
+              "status": "passed"
+            },
+            "line": 195,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T05:34:22.484Z",
+        "line": 198,
+        "name": "To validate application Salesforce Switch to Lightning Experience-Contacts Page with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-salesforce-switch-to-lightning-experience-contacts-page-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2238644400,
+              "status": "passed"
+            },
+            "line": 199,
+            "name": "Click on Switch to Lightning Experience-Contacts label in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Switch_to_Lightning_Experience_Contacts_label_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5046369400,
+              "status": "passed"
+            },
+            "line": 200,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126619200,
+              "status": "passed"
+            },
+            "line": 201,
+            "name": "Validate the customer name from Contacts page in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validate_the_customer_name_from_Contacts_page_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5019307900,
+              "status": "passed"
+            },
+            "line": 202,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4627690200,
+              "status": "passed"
+            },
+            "line": 203,
+            "name": "Click on Switch to Lightning Experience-Recently Viewed Contacts label in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Switch_to_Lightning_Experience_Recently_Viewed_Contacts_label_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5051790400,
+              "status": "passed"
+            },
+            "line": 204,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109952900,
+              "status": "passed"
+            },
+            "line": 205,
+            "name": "Validate the customer name from Contacts page-Recently Viewed Contacts in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validate_the_customer_name_from_Contacts_page_Recently_Viewed_Contacts_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5015130400,
+              "status": "passed"
+            },
+            "line": 206,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-28T05:34:49.722Z",
+        "line": 209,
+        "name": "To validate application Salesforce Switch to Lightning Experience-Leads Page with US Region",
+        "description": "",
+        "id": "validate-application-contact-s-in-linkedin-website-using-us-region;to-validate-application-salesforce-switch-to-lightning-experience-leads-page-with-us-region",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2207197100,
+              "status": "passed"
+            },
+            "line": 210,
+            "name": "Click on Switch to Lightning Experience-Leads label in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Switch_to_Lightning_Experience_Leads_label_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5054036600,
+              "status": "passed"
+            },
+            "line": 211,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119024500,
+              "status": "passed"
+            },
+            "line": 212,
+            "name": "Validate the customer name from Leads page in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validate_the_customer_name_from_Leads_page_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5013526800,
+              "status": "passed"
+            },
+            "line": 213,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4692837100,
+              "status": "passed"
+            },
+            "line": 214,
+            "name": "Click on Switch to Lightning Experience-All Open Leads label in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.click_on_Switch_to_Lightning_Experience_All_Open_Leads_label_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5057279400,
+              "status": "passed"
+            },
+            "line": 215,
+            "name": "Switch To Frame with US Region For LinkedIn",
+            "match": {
+              "location": "Steps.switch_To_Frame_with_US_Region_For_LinkedIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136966300,
+              "status": "passed"
+            },
+            "line": 216,
+            "name": "Validate the customer name from Leads page-All Open Leads in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.validate_the_customer_name_from_Leads_page_All_Open_Leads_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5010625600,
+              "status": "passed"
+            },
+            "line": 217,
+            "name": "Switch From Frame To Webpage in Salesforce Website Using US Region",
+            "match": {
+              "location": "Steps.switch_From_Frame_To_Webpage_in_Salesforce_Website_Using_US_Region()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Validate application Contact\u0027s in LinkedIn website using US Region",
+    "description": "",
+    "id": "validate-application-contact-s-in-linkedin-website-using-us-region",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/TC03_Validate_Contact_With_LinkedIn_Site.feature",
+    "tags": []
+  }
+]
