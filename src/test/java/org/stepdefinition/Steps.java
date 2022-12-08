@@ -547,7 +547,7 @@ public class Steps extends Global {
 
 	@When("Switch To Frame with UK Region")
 	public void switch_To_Frame_with_UK_Region() throws Throwable {
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		driver3.switchTo().frame(PageObjectManager.getInstance().getLogin_Page_With_UK_Region().getSwitchTOFrame());
 	}
 
@@ -976,8 +976,10 @@ public class Steps extends Global {
 		 * rev driver
 		 */
 		String[] split = expectedData.split(" ");
+		System.out.println("Expected Data: "+expectedData);
 		firstName = split[0];
 		lastName = split[1];
+
 	}
 
 	@When("Click on Select all check box with US Region For LinkedIn")
@@ -1420,12 +1422,13 @@ public class Steps extends Global {
 		WebDriverWait webDriverWait = new WebDriverWait(driver_For_LinkedIn, 60);
 		webDriverWait.until(ExpectedConditions.elementToBeClickable(PageObjectManager.getInstance().getFor_LinkedIn()
 				.getLinkedIn_Website_Salesforce_Switch_to_Lightning_Experience_Accounts()));
-		Thread.sleep(2000);
+		Thread.sleep(7000);
 //		clickButton(PageObjectManager.getInstance().getFor_LinkedIn()
 //				.getLinkedIn_Website_Salesforce_Switch_to_Lightning_Experience_Accounts());
 		JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver_For_LinkedIn;
 		javascriptExecutor.executeScript("arguments[0].click();", PageObjectManager.getInstance().getFor_LinkedIn()
 				.getLinkedIn_Website_Salesforce_Switch_to_Lightning_Experience_Accounts());
+		System.out.println("Account Settings Clicked");
 
 	}
 

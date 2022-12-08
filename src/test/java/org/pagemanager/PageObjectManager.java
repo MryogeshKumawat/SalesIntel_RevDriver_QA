@@ -25,9 +25,9 @@ public class PageObjectManager {
 	private Location location;
 
 	private PageObjectManager() {
-		
+
 	}
-	
+
 	public static PageObjectManager getInstance() {
 		return (pageObjectManager == null) ? pageObjectManager = new PageObjectManager() : pageObjectManager;
 	}
@@ -57,20 +57,25 @@ public class PageObjectManager {
 	}
 
 	public Login_Page_With_Indian_Region getLogin_Page_With_Indian_Region() {
-		return (login_Page_With_Indian_Region == null) ? login_Page_With_Indian_Region = new Login_Page_With_Indian_Region() : login_Page_With_Indian_Region;
+		return (login_Page_With_Indian_Region == null)
+				? login_Page_With_Indian_Region = new Login_Page_With_Indian_Region()
+				: login_Page_With_Indian_Region;
 	}
 
 	public Login_Page_With_US_Region getLogin_Page_With_US_Region() {
-		return (login_Page_With_US_Region == null) ? login_Page_With_US_Region = new Login_Page_With_US_Region() : login_Page_With_US_Region;
+		return (login_Page_With_US_Region == null) ? login_Page_With_US_Region = new Login_Page_With_US_Region()
+				: login_Page_With_US_Region;
 	}
 
 	public Login_Page_With_UK_Region getLogin_Page_With_UK_Region() {
-		return (login_Page_With_UK_Region == null) ? login_Page_With_UK_Region = new Login_Page_With_UK_Region() : login_Page_With_UK_Region;
+		return (login_Page_With_UK_Region == null) ? login_Page_With_UK_Region = new Login_Page_With_UK_Region()
+				: login_Page_With_UK_Region;
 	}
 
 	public Login_Page_With_US_Region_For_LinkedIn getFor_LinkedIn() {
-		return (login_Page_With_US_Region_for_LinkedIn == null) ? login_Page_With_US_Region_for_LinkedIn = new Login_Page_With_US_Region_For_LinkedIn() : login_Page_With_US_Region_for_LinkedIn;
+		return (login_Page_With_US_Region_for_LinkedIn == null)
+				? login_Page_With_US_Region_for_LinkedIn = new Login_Page_With_US_Region_For_LinkedIn()
+				: login_Page_With_US_Region_for_LinkedIn;
 	}
-	
-		
+
 }
